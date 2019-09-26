@@ -1,0 +1,48 @@
+<!ELEMENT html (head,body)>
+
+<!ELEMENT head (meta*)>
+<!ELEMENT body (h1,
+		hr,
+		table,
+		hr,hr,
+		h3,ol,
+		hr,hr,
+		h3,(p | #PCDATA | i | b | a | font)+,
+		hr,hr,
+		h3,ul,#PCDATA?,
+		hr,
+		p)>
+
+<!ELEMENT h1    (#PCDATA)>  
+<!ELEMENT h3    (#PCDATA)>  
+<!ELEMENT hr    (#PCDATA)>  
+<!ELEMENT p     (#PCDATA | i | b | a | font)*>  
+<!ELEMENT table (tbody)>  
+
+<!ELEMENT tbody (tr*)>
+<!ELEMENT tr    (td*)>
+<!ELEMENT td    (#PCDATA | i | b | a | font)*>
+
+<!ELEMENT ol    (li*)>  
+<!ELEMENT ul    (li*)>
+
+<!ELEMENT li    (#PCDATA | i | b | a | font)*>
+
+<!ELEMENT i     (#PCDATA)>
+<!ELEMENT b     (#PCDATA)>
+<!ELEMENT a     (#PCDATA)>
+<!ELEMENT font  (#PCDATA | i | b | a | font)*>
+
+
+<!ATTLIST a
+	  href   CDATA #REQUIRED
+          target CDATA #IMPLIED>
+<!ATTLIST td
+          width  CDATA #IMPLIED>
+<!ATTLIST table
+	  width  CDATA #IMPLIED
+          border CDATA #IMPLIED>
+<!ATTLIST font
+	  color CDATA #IMPLIED>
+<!ATTLIST h1
+          align CDATA #IMPLIED>

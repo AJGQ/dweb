@@ -1,0 +1,3 @@
+//ARQELEM[normalize-space(CONCEL)="Amares"]/IDENTI
+//CONCEL[../TIPO/@ASSUNTO="arqueossitio"]
+//DESARQ[normalize-space(../CONCEL)="Montalegre"]
