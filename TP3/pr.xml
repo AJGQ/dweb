@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TPC_3
+        </keyname>
+        <title>
+            Transformações xslt
+        </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            01-10-2019
+        </bdate>
+        <edate>
+            08-10-2019
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Para simplificar e standardizar a escrita de algum tipo de documento, é preferível usar xml, para que seja possível e sem muitas <b>dores de cabeça</b>, a verificação da sua estrutura e também certas transformações como neste caso de xml->html. Sendo também possível de um tipo de estrutura de xml para outro.
+        </p>
+        <p>
+            Neste trabalho foi criado um stylesheet para transformações xslt (xsl), para transformar este documento e o documento de arqueossítios, num html, no caso do arqueossítios num website, já com várias páginas.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xsl">
+            pr.xsl (stylesheet xml->html)
+        </deliverable>
+        <deliverable path="pr.html">
+            pr.html (resultado do xslt do pr)
+        </deliverable>
+        <deliverable path="arq.xsl">
+            arq.xsl (stylesheet xml->html/website)
+        </deliverable>
+        <deliverable path="website">
+            website (resultado do xslt do arq)
+        </deliverable>
+    </deliverables>
+</pr>
