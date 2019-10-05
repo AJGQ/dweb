@@ -105,7 +105,7 @@
 
     <xsl:template match="git">
         <th>
-            <a href="{.}"><xsl:value-of select="."/></a>
+            <a href="{normalize-space(.)}"><xsl:value-of select="."/></a>
         </th>
     </xsl:template>
 
