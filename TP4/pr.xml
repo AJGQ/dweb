@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TPC_4
+        </keyname>
+        <title>
+            Servidor em nodejs
+        </title>
+        <subtitle>
+            Abrir páginas
+        </subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            08-10-2019
+        </bdate>
+        <edate>
+            15-10-2019
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Para que possamos receber um pedido pelo url, usamos o nodejs com o modulo http. Com essa informação vamos poder abrir o ficheiro pedido pelo url.
+        </p>
+        <p>
+            Usando os conhecimentos anteriores de xsl, o conhecimento do &lt;xsl:copy&gt;, para facilitar o processo, o conhecimento de count() e de eixos do XPath, conseguimos construir vários ficheiros com contagem crescente.
+        </p>
+        <p>
+            O exercício de mostrar o ficheiro específico em nodejs foi muito simples tendo o exemplo da aula anterior.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xsl">
+            stylesheet xml->html
+        </deliverable>
+        <deliverable path="pr.html">
+            resultado do xslt do pr
+        </deliverable>
+        <deliverable path="arq.xsl">
+            stylesheet xml->(vários documentos em arq_sit)
+        </deliverable>
+        <deliverable path="arq_sit">
+            diretoria com o resultado de xslt do arq (arq1.xml, arq2.xml, ...)
+        </deliverable>
+        <deliverable path="server.js">
+            servidor para dado um i no localhost:7777/i, abre o arq_sit/arqi.xml
+        </deliverable>
+    </deliverables>
+</pr>

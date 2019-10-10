@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <head>
+      <title>Project Record</title>
+      <meta charset="UTF8"></meta>
+   </head>
+   <body>
+      <h1>
+         <center>Project Record</center>
+      </h1>
+      <hr></hr>
+      
+      <dl>
+         
+         <dt>
+            <b>KEY NAME:</b>
+         </dt>
+         <dd>
+            TPC_4
+            
+         </dd>
+         
+         <dt>
+            <b>TITLE:</b>
+         </dt>
+         <dd>
+            Servidor em nodejs
+            
+         </dd>
+         
+         <dt>
+            <b>SUBTITLE:</b>
+         </dt>
+         <dd>
+            Abrir páginas
+            
+         </dd>
+         
+         <dt>
+            <b>SUPERVISOR:</b>
+         </dt>
+         <dd>
+            <a href="http://www4.di.uminho.pt/~jcr/">
+               José Carlos Ramalho
+               
+            </a>
+         </dd>
+         
+         <dt>
+            <b>BEGIN DATE:</b>
+         </dt>
+         <dd>
+            08-10-2019
+            
+         </dd>
+         
+         <dt>
+            <b>END DATE:</b>
+         </dt>
+         <dd>
+            15-10-2019
+            
+         </dd>
+         
+      </dl>
+      <hr></hr>
+      <hr></hr>
+      
+      <h3>
+         Work Team:
+         
+      </h3>
+      <table border="1">
+         <tr>
+            <th>Identifier</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Git</th>
+         </tr>
+         
+         <tr>
+            
+            <th>
+               PG38014
+               
+            </th>
+            
+            <th>
+               Artur Queiroz
+               
+            </th>
+            
+            <th>
+               artur11jorge@gmail.com
+               
+            </th>
+            
+            <th>
+               <a href="https://github.com/AJGQ">
+                  https://github.com/AJGQ
+                  
+               </a>
+            </th>
+            
+         </tr>
+         
+      </table>
+      <hr></hr>
+      <hr></hr>
+      
+      <h3>
+         Abstract:
+         
+      </h3>
+      
+      <p>
+         Para simplificar e standardizar a escrita de algum tipo de documento, é preferível usar xml, para que seja possível e sem
+         muitas 
+         <b>dores de cabeça</b>, a verificação da sua estrutura e também certas transformações como neste caso de xml-&gt;html. Sendo também possível de um
+         tipo de estrutura de xml para outro.
+         
+      </p>
+      
+      <p>
+         Neste trabalho foi criado um stylesheet para transformações xslt (xsl), para transformar este documento e o documento de arqueossítios,
+         num html, no caso do arqueossítios num website, já com várias páginas.
+         
+      </p>
+      
+      <hr></hr>
+      <hr></hr>
+      
+      <h3>
+         Deliverables
+         
+      </h3>
+      <ul>
+         <li>
+            <a href="pr.xsl">pr.xsl - 
+               pr.xsl (stylesheet xml-&gt;html)
+               
+            </a>
+         </li>
+         <li>
+            <a href="pr.html">pr.html - 
+               pr.html (resultado do xslt do pr)
+               
+            </a>
+         </li>
+         <li>
+            <a href="arq.xsl">arq.xsl - 
+               arq.xsl (stylesheet xml-&gt;(vários documentos em arq_sit))
+               
+            </a>
+         </li>
+         <li>
+            <a href="arq_sit">arq_sit - 
+               arq_sit ()
+               
+            </a>
+         </li>
+      </ul>
+      <hr></hr>
+      
+   </body>
+</html>
