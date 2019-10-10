@@ -4,11 +4,16 @@ with pkgs;
 stdenv.mkDerivation {
   name = "dweb-env";
   buildInputs = [
-    # Project dependencies
+    # dtd
+    libxml2
+
+    # xsl
+    #libxslt
+    saxonb_9_1
+
+    # node
     mongodb
     nodejs-10_x
     nodePackages_10_x.npm
-    libxslt
-    libxml2
   ];
 }
