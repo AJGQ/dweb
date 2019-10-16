@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TPC_5
+        </keyname>
+        <title>
+            Lista de tarefas
+        </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            08-10-2019
+        </bdate>
+        <edate>
+            15-10-2019
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Para informação mais volumosa ou privada é inademissível usar o método GET para envio da mesma, pois essa informação tem um limite de caracters e não há proteção nenhuma. Para circunstâncias desse género usa-se o método POST.
+        </p>
+        <p>
+            Neste trabalho foi feito um single-page website para uma aplicação de gestão de tarefas, onde é possível registar uma tarefa e visualizar as já registadas previamente.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="erro.pug ">
+            mensagem de erro
+        </deliverable>
+        <deliverable path="index.pug">
+            pagina principal do website
+        </deliverable>
+        <deliverable path="layout.pug">
+            complementar para outras paginas
+        </deliverable>
+        <deliverable path="pr.dtd">
+            descreve o pr
+        </deliverable>
+        <deliverable path="pr.xsl">
+            stylesheet para visualizar em html
+        </deliverable>
+        <deliverable path="stylesheets">
+            diretoria de todas as stylesheets
+        </deliverable>
+        <deliverable path="stylesheets/w3.css">
+            stylesheet do w3schools
+        </deliverable>
+        <deliverable path="tarefas.js">
+            servidor para o website
+        </deliverable>
+        <deliverable path="tarefas.json">
+            base de dados para as tarefas
+        </deliverable>
+    </deliverables>
+</pr>
