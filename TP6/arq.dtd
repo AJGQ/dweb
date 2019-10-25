@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT arq (doc*) >
+
+<!ELEMENT doc (prov, local?, tit, musico?, inst?, obs*, file, duracao) >
+<!ELEMENT prov      (#PCDATA)>
+<!ELEMENT inst      (#PCDATA)>
+<!ELEMENT local     (#PCDATA)>
+<!ELEMENT tit       (#PCDATA)>
+<!ELEMENT musico    (#PCDATA | from | prof)*>
+<!ELEMENT prof      (#PCDATA)>
+<!ELEMENT file      (#PCDATA)>
+<!ELEMENT duracao   (#PCDATA)>
+<!ELEMENT intxt     (#PCDATA)>
+<!ELEMENT from      (#PCDATA)>
+<!ELEMENT obs       (#PCDATA | file | intxt)*>
+
+<!ATTLIST file
+            t CDATA #REQUIRED>
+

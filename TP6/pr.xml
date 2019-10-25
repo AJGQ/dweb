@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TPC_6
+        </keyname>
+        <title>
+            ...
+        </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            08-10-2019
+        </bdate>
+        <edate>
+            15-10-2019
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Como foi só um caso eliminei a linha 224 do dataset.
+        </p>
+        <p>
+            Fiz um dtd do arq-son, para ser mais fácil olhar para a sua estrutura para o transformar num json (espero que ajude)
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.dtd">
+            descreve o pr
+        </deliverable>
+        <deliverable path="pr.xsl">
+            stylesheet para visualizar em html
+        </deliverable>
+    </deliverables>
+</pr>

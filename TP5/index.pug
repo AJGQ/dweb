@@ -22,10 +22,14 @@ block content
                     tr
                         th Tarefa
                         th Data Limite
+                        th  
                     each trf in tarefas
                         tr
                             td= trf.tarefa
                             td= trf.limite
+                            td
+                                form.w3-container(action='/' method='POST')
+                                    input.w3-btn.w3-blue-grey(type='submit' value='Completar_pois' name='coisa_esquisita')
 
             footer.w3-container.w3-teal
                 address Gerado por AJGQ

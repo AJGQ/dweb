@@ -8,6 +8,36 @@ var {parse} = require('querystring');
 
 var my_db = "tarefas.json";
 
+function header_html(res){
+    res.writeHead(200, {
+        'Content-Type' : 'text/html; charset=utf-8'
+    });
+}
+
+function header_css(res){
+    res.writeHead(200, {
+        'Content-Type' : 'text/css'
+    });
+}
+
+function error_page_style(res, s){
+    header_html(res);
+    res.write(pug.renderFile('erro.pug', {e: s}));
+    res.end();
+}
+
+function page_html(res, page){
+    header_html(res);
+    res.write(page);
+    res.end();
+}
+
+function page_css(res, page){
+    header_css(res);
+    res.write(page);
+    res.end();
+}
+
 var my_server = http.createServer((req,res) => {
     var p_url = url.parse(req.url, true);
     var query = p_url.query;
@@ -17,42 +47,28 @@ var my_server = http.createServer((req,res) => {
     switch(req.method){
         case "GET":
             if(p_url.pathname == "/"){
-                res.writeHead(200, {
-                    'Content-Type' : 'text/html; charset=utf-8'
-                });
                 jsonfile.readFile(my_db, (erro, tarefas) => {
                     if(!erro){
-                        res.write(pug.renderFile('index.pug', {tarefas: tarefas}));
+                        page_html(res, pug.renderFile('index.pug', {tarefas: tarefas}));
                     } else {
-                        res.write(pug.renderFile('erro.pug', {e: "Erro na leitura da bd..."}));
+                        error_page_style(res,"Erro na leitura da bd...");
                     }
-                    res.end();
                 });
             } else if(p_url.pathname == "/w3.css") {
-                res.writeHead(200, {
-                    'Content-Type' : 'text/css'
-                });
                 fs.readFile('stylesheets/w3.css', (erro, dados)=>{
                     if(!erro){
-                        res.write(dados);
+                        page_css(res, dados);
                     } else {
-                        res.write("<p> Erro: " + erro + "</p>");
+                        page_css(res, "<p> Erro: " + erro + "</p>");
                     }
-                    res.end();
-                }); // assincronous!!!!!!!!
-            } else {
-                res.writeHead(200, {
-                    'Content-Type' : 'text/html; charset=utf-8'
                 });
-                res.write(pug.renderFile('erro.pug', {e: "Erro a página deve estar na /"}));
-                res.end();
+            } else {
+                res.redirect('/');
+                error_page_style(res, "Erro a página deve estar na /")
             }
             break;
 
         case "POST":
-            res.writeHead(200, {
-                'Content-Type' : 'text/html; charset=utf-8'
-            });
             if(p_url.pathname == '/'){
                 recuperaInfo(req, resultado => {
                     jsonfile.readFile(my_db, (erro, tarefas) => {
@@ -61,38 +77,31 @@ var my_server = http.createServer((req,res) => {
                             jsonfile.writeFile(my_db, tarefas, (erro) => {
                                 if(!erro){
                                     console.log('registo gravado com sucesso...');
-                                    res.write(pug.renderFile('index.pug', {tarefas: tarefas}));
-                                    res.end();
+                                    page_html(res, pug.renderFile('index.pug', {tarefas: tarefas}));
                                 } else {
                                     console.log(erro);
-                                    res.write(pug.renderFile('erro.pug', {e: "Erro a escrever na db..."}));
-                                    res.end();
+                                    error_page_style(res, "Erro a escrever na db...")
                                 }
                             })
                         }else{
-                            res.write(pug.renderFile('erro.pug', {e: "Erro a ler a db..."}));
-                            res.end();
+                            error_page_style(res, "Erro a ler a db...");
                         }
                     });
                 });
             } else {
-                res.write(pug.renderFile('erro.pug', {e: "Erro na leitura da bd..."}));
-                res.end();
+                error_page_style(res, "Erro volte para /");
             }
             break;
 
         default:
-            res.writeHead(200, {
-                'Content-Type' : 'text/html; charset=utf-8'
-            });
-            console.log( "ERRO: " + req.method + " não suportado...");
-            res.write(pug.renderFile('erro.pug', {e: "ERRO: " + req.method + " não suportado..."}));
-            res.end();
+            error_page_style(res,"ERRO: " + req.method + " não suportado...");
     }
 });
 
 
 function recuperaInfo(request, callback){
+    console.log(request.body);
+    console.log(request);
     if(request.headers['content-type'] == 'application/x-www-form-urlencoded'){
         var body = '';
         request.on('data', bloco => {
