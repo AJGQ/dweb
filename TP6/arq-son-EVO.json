@@ -2,7 +2,8 @@
         [
 
 
-        {
+        {"id": "0",
+        
 
         "prov": "Alentejo",
 
@@ -22,7 +23,8 @@
 },
 
 
-        {
+        {"id": "1",
+        
 
         "prov": "Alentejo",
 
@@ -36,7 +38,8 @@
             "Jorge Montes Caranova (viola campaniça)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -45,7 +48,9 @@
         ],
         "file": "audiocurswa/0403evo0.swa",
         "file": "audiocurmp3/0403evo0.mp3",
-        "intxt": "Viola campaniça"},
+        "intxt": "Viola campaniça"
+        }],
+    
 
         "file": "d1/evo002.mp3",
 
@@ -53,7 +58,8 @@
 },
 
 
-        {
+        {"id": "2",
+        
 
         "prov": "Alentejo",
 
@@ -73,7 +79,8 @@
 },
 
 
-        {
+        {"id": "3",
+        
 
         "prov": "Alentejo",
 
@@ -87,7 +94,8 @@
             "Jorge Montes Caranova (viola campaniça)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -96,7 +104,9 @@
         ],
         "file": "audiocurswa/0401evo0.swa",
         "file": "audiocurmp3/0401evo0.mp3",
-        "intxt": "Viola campaniça"},
+        "intxt": "Viola campaniça"
+        }],
+    
 
         "file": "d1/evo004.mp3",
 
@@ -104,7 +114,8 @@
 },
 
 
-        {
+        {"id": "4",
+        
 
         "prov": "Beira Baixa",
 
@@ -118,7 +129,8 @@
             "Catarina Chitas; Manuel Moreira (viola beiroa)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -127,7 +139,9 @@
         ],
         "file": "audiocurswa/0203evo0.swa",
         "file": "audiocurmp3/0203evo0.mp3",
-        "intxt": "Viola beiroa"},
+        "intxt": "Viola beiroa"
+        }],
+    
 
         "file": "d1/evo005.mp3",
 
@@ -135,7 +149,8 @@
 },
 
 
-        {
+        {"id": "5",
+        
 
         "prov": "Beira Baixa",
 
@@ -149,7 +164,8 @@
             "Manuel Moreira (viola beiroa)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -158,7 +174,9 @@
         ],
         "file": "audiocurswa/0202evo0.swa",
         "file": "audiocurmp3/0202evo0.mp3",
-        "intxt": "Viola Beiroa"},
+        "intxt": "Viola Beiroa"
+        }],
+    
 
         "file": "d1/evo006.mp3",
 
@@ -166,7 +184,8 @@
 },
 
 
-        {
+        {"id": "6",
+        
 
         "prov": "Beira Baixa",
 
@@ -186,7 +205,8 @@
 },
 
 
-        {
+        {"id": "7",
+        
 
         "prov": "Beira Baixa",
 
@@ -200,7 +220,8 @@
             "Catarina Chitas; Manuel Moreira (viola beiroa)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -209,7 +230,9 @@
         ],
         "file": "audiocurswa/0201evo0.swa",
         "file": "audiocurmp3/0201evo0.mp3",
-        "intxt": "Viola Beiroa"},
+        "intxt": "Viola Beiroa"
+        }],
+    
 
         "file": "d1/evo008.mp3",
 
@@ -217,7 +240,8 @@
 },
 
 
-        {
+        {"id": "8",
+        
 
         "prov": "Alentejo",
 
@@ -231,11 +255,14 @@
             "Jorge Montes Caranova (viola campaniça)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "interrupção no meio, no original"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo009.mp3",
 
@@ -243,7 +270,8 @@
 },
 
 
-        {
+        {"id": "9",
+        
 
         "prov": "Alentejo",
 
@@ -257,11 +285,14 @@
             "Jorge Montes Caranova (viola campaniça)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "original com falhas"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo010.mp3",
 
@@ -269,7 +300,8 @@
 },
 
 
-        {
+        {"id": "10",
+        
 
         "prov": "Alentejo",
 
@@ -283,11 +315,14 @@
             "Jorge Montes Caranova (viola campaniça)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "idêntica a Murianos é bom povo"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo011.mp3",
 
@@ -295,7 +330,8 @@
 },
 
 
-        {
+        {"id": "11",
+        
 
         "prov": "Alentejo",
 
@@ -309,7 +345,8 @@
             "Jorge Montes Caranova (viola campaniça)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -318,7 +355,9 @@
         ],
         "file": "audiocurswa/0402evo0.swa",
         "file": "audiocurmp3/0402evo0.mp3",
-        "intxt": "Viola campaniça"},
+        "intxt": "Viola campaniça"
+        }],
+    
 
         "file": "d1/evo012.mp3",
 
@@ -326,7 +365,8 @@
 },
 
 
-        {
+        {"id": "12",
+        
 
         "prov": "Alentejo",
 
@@ -340,11 +380,14 @@
             "Jorge Montes Caranova (viola campaniça)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "pequena interrupção e final com falhas"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo013.mp3",
 
@@ -352,7 +395,8 @@
 },
 
 
-        {
+        {"id": "13",
+        
 
         "prov": "Alentejo",
 
@@ -372,7 +416,8 @@
 },
 
 
-        {
+        {"id": "14",
+        
 
         "prov": "Alentejo",
 
@@ -392,7 +437,8 @@
 },
 
 
-        {
+        {"id": "15",
+        
 
         "prov": "Alentejo",
 
@@ -412,7 +458,8 @@
 },
 
 
-        {
+        {"id": "16",
+        
 
         "prov": "Alentejo",
 
@@ -426,7 +473,8 @@
             "António Torrado Rodrigues (Tamboril e Pífaro)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -435,7 +483,9 @@
         ],
         "file": "audiocurswa/1103evo0.swa",
         "file": "audiocurmp3/1103evo0.mp3",
-        "intxt": "Flautas e ocarina"},
+        "intxt": "Flautas e ocarina"
+        }],
+    
 
         "file": "d1/evo017.mp3",
 
@@ -443,7 +493,8 @@
 },
 
 
-        {
+        {"id": "17",
+        
 
         "prov": "Alentejo",
 
@@ -463,7 +514,8 @@
 },
 
 
-        {
+        {"id": "18",
+        
 
         "prov": "Alentejo",
 
@@ -477,11 +529,14 @@
             "João da Cruz Samarra (flauta transversal)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "interrupção curta com pequenas falhas"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo019.mp3",
 
@@ -489,7 +544,8 @@
 },
 
 
-        {
+        {"id": "19",
+        
 
         "prov": "Alentejo",
 
@@ -509,7 +565,8 @@
 },
 
 
-        {
+        {"id": "20",
+        
 
         "prov": "Alentejo",
 
@@ -529,7 +586,8 @@
 },
 
 
-        {
+        {"id": "21",
+        
 
         "prov": "Beira Baixa",
 
@@ -539,11 +597,14 @@
 
         "inst": "adufe; garrafa com garfom; canto",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "baixa de nível no princípio com falhas a meio"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo022.mp3",
 
@@ -551,7 +612,8 @@
 },
 
 
-        {
+        {"id": "22",
+        
 
         "prov": "Beira Baixa",
 
@@ -567,7 +629,8 @@
 },
 
 
-        {
+        {"id": "23",
+        
 
         "prov": "Beira Baixa",
 
@@ -581,7 +644,8 @@
 },
 
 
-        {
+        {"id": "24",
+        
 
         "prov": "Beira Baixa",
 
@@ -597,7 +661,8 @@
 },
 
 
-        {
+        {"id": "25",
+        
 
         "prov": "Beira Baixa",
 
@@ -613,7 +678,8 @@
 },
 
 
-        {
+        {"id": "26",
+        
 
         "prov": "Minho",
 
@@ -629,7 +695,8 @@
 },
 
 
-        {
+        {"id": "27",
+        
 
         "prov": "Minho",
 
@@ -645,7 +712,8 @@
 },
 
 
-        {
+        {"id": "28",
+        
 
         "prov": "Minho",
 
@@ -655,7 +723,8 @@
 
         "inst": "Gaita de Foles (2); Bombos;Caixas",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -664,7 +733,9 @@
         ],
         "file": "audiocurswa/1006evo0.swa",
         "file": "audiocurmp3/1006evo0.mp3",
-        "intxt": "Gaitas de foles e palheta"},
+        "intxt": "Gaitas de foles e palheta"
+        }],
+    
 
         "file": "d1/evo029.mp3",
 
@@ -672,7 +743,8 @@
 },
 
 
-        {
+        {"id": "29",
+        
 
         "prov": "Minho",
 
@@ -688,7 +760,8 @@
 },
 
 
-        {
+        {"id": "30",
+        
 
         "prov": "Minho",
 
@@ -704,7 +777,8 @@
 },
 
 
-        {
+        {"id": "31",
+        
 
         "prov": "Minho",
 
@@ -720,7 +794,8 @@
 },
 
 
-        {
+        {"id": "32",
+        
 
         "prov": "Minho",
 
@@ -736,7 +811,8 @@
 },
 
 
-        {
+        {"id": "33",
+        
 
         "prov": "Minho",
 
@@ -752,7 +828,8 @@
 },
 
 
-        {
+        {"id": "34",
+        
 
         "prov": "Minho",
 
@@ -768,7 +845,8 @@
 },
 
 
-        {
+        {"id": "35",
+        
 
         "prov": "Minho",
 
@@ -788,7 +866,8 @@
 },
 
 
-        {
+        {"id": "36",
+        
 
         "prov": "Minho",
 
@@ -802,7 +881,8 @@
             "José Dias (ocarina)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -811,7 +891,9 @@
         ],
         "file": "audiocurswa/1107evo0.swa",
         "file": "audiocurmp3/1107evo0.mp3",
-        "intxt": "Flautas e ocarina"},
+        "intxt": "Flautas e ocarina"
+        }],
+    
 
         "file": "d1/evo037.mp3",
 
@@ -819,7 +901,8 @@
 },
 
 
-        {
+        {"id": "37",
+        
 
         "prov": "Minho",
 
@@ -839,7 +922,8 @@
 },
 
 
-        {
+        {"id": "38",
+        
 
         "prov": "Estremadura",
 
@@ -859,7 +943,8 @@
 },
 
 
-        {
+        {"id": "39",
+        
 
         "prov": "Estremadura",
 
@@ -879,7 +964,8 @@
 },
 
 
-        {
+        {"id": "40",
+        
 
         "prov": "Estremadura",
 
@@ -899,7 +985,8 @@
 },
 
 
-        {
+        {"id": "41",
+        
 
         "prov": "Estremadura",
 
@@ -919,7 +1006,8 @@
 },
 
 
-        {
+        {"id": "42",
+        
 
         "prov": "Estremadura",
 
@@ -939,7 +1027,8 @@
 },
 
 
-        {
+        {"id": "43",
+        
 
         "prov": "Estremadura",
 
@@ -959,7 +1048,8 @@
 },
 
 
-        {
+        {"id": "44",
+        
 
         "prov": "Estremadura",
 
@@ -979,7 +1069,8 @@
 },
 
 
-        {
+        {"id": "45",
+        
 
         "prov": "Estremadura",
 
@@ -999,7 +1090,8 @@
 },
 
 
-        {
+        {"id": "46",
+        
 
         "prov": "Estremadura",
 
@@ -1019,7 +1111,8 @@
 },
 
 
-        {
+        {"id": "47",
+        
 
         "prov": "Estremadura",
 
@@ -1039,7 +1132,8 @@
 },
 
 
-        {
+        {"id": "48",
+        
 
         "prov": "Estremadura",
 
@@ -1059,7 +1153,8 @@
 },
 
 
-        {
+        {"id": "49",
+        
 
         "prov": "Estremadura",
 
@@ -1079,7 +1174,8 @@
 },
 
 
-        {
+        {"id": "50",
+        
 
         "prov": "Estremadura",
 
@@ -1099,7 +1195,8 @@
 },
 
 
-        {
+        {"id": "51",
+        
 
         "prov": "Estremadura",
 
@@ -1119,7 +1216,8 @@
 },
 
 
-        {
+        {"id": "52",
+        
 
         "prov": "Beira Litoral",
 
@@ -1139,7 +1237,8 @@
 },
 
 
-        {
+        {"id": "53",
+        
 
         "prov": "Beira Litoral",
 
@@ -1159,7 +1258,8 @@
 },
 
 
-        {
+        {"id": "54",
+        
 
         "prov": "Beira Litoral",
 
@@ -1179,7 +1279,8 @@
 },
 
 
-        {
+        {"id": "55",
+        
 
         "prov": "Beira Litoral",
 
@@ -1193,11 +1294,14 @@
             "José Melo (Gaita de foles); António Craveiro (bombo); Manuel Melo (caixa)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "variação de som na matriz"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo056.mp3",
 
@@ -1205,7 +1309,8 @@
 },
 
 
-        {
+        {"id": "56",
+        
 
         "prov": "Beira Litoral",
 
@@ -1219,11 +1324,14 @@
             "José Melo (Gaita de foles); António Craveiro (bombo); Manuel Melo (caixa)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "variação de som na matriz"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo057.mp3",
 
@@ -1231,7 +1339,8 @@
 },
 
 
-        {
+        {"id": "57",
+        
 
         "prov": "Beira Litoral",
 
@@ -1251,7 +1360,8 @@
 },
 
 
-        {
+        {"id": "58",
+        
 
         "prov": "Beira Litoral",
 
@@ -1265,11 +1375,14 @@
             "José Melo (Gaita de foles); António Craveiro (bombo); Manuel Melo (caixa)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "nível baixo no início"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo059.mp3",
 
@@ -1277,7 +1390,8 @@
 },
 
 
-        {
+        {"id": "59",
+        
 
         "prov": "Douro Litoral",
 
@@ -1285,11 +1399,14 @@
 
         "tit": "Cantar à pedra",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação no início e no meio"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo060.mp3",
 
@@ -1297,7 +1414,8 @@
 },
 
 
-        {
+        {"id": "60",
+        
 
         "prov": "Douro Litoral",
 
@@ -1311,7 +1429,8 @@
 },
 
 
-        {
+        {"id": "61",
+        
 
         "prov": "Douro Litoral",
 
@@ -1325,7 +1444,8 @@
 },
 
 
-        {
+        {"id": "62",
+        
 
         "prov": "Douro Litoral",
 
@@ -1333,11 +1453,14 @@
 
         "tit": "Cantar ao puxar o cabo",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo063.mp3",
 
@@ -1345,7 +1468,8 @@
 },
 
 
-        {
+        {"id": "63",
+        
 
         "prov": "Douro Litoral",
 
@@ -1361,7 +1485,8 @@
 },
 
 
-        {
+        {"id": "64",
+        
 
         "prov": "Douro Litoral",
 
@@ -1377,7 +1502,8 @@
 },
 
 
-        {
+        {"id": "65",
+        
 
         "prov": "Douro Litoral",
 
@@ -1387,11 +1513,14 @@
 
         "inst": "Rabeca; violão; viola amarantina; ferrinhos; bombo",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "cortada no início"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo066.mp3",
 
@@ -1399,7 +1528,8 @@
 },
 
 
-        {
+        {"id": "66",
+        
 
         "prov": "Douro Litoral",
 
@@ -1409,11 +1539,14 @@
 
         "inst": "Rabeca; violão; viola amarantina; ferrinhos; bombo",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "final cortado no original"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo067.mp3",
 
@@ -1421,7 +1554,8 @@
 },
 
 
-        {
+        {"id": "67",
+        
 
         "prov": "Douro Litoral",
 
@@ -1431,11 +1565,14 @@
 
         "inst": "Rabeca; violão; viola amarantina; ferrinhos; bombo",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "final cortado no original"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo068.mp3",
 
@@ -1443,7 +1580,8 @@
 },
 
 
-        {
+        {"id": "68",
+        
 
         "prov": "Douro Litoral",
 
@@ -1463,7 +1601,8 @@
 },
 
 
-        {
+        {"id": "69",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1473,11 +1612,14 @@
 
         "inst": "pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo070.mp3",
 
@@ -1485,7 +1627,8 @@
 },
 
 
-        {
+        {"id": "70",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1495,11 +1638,14 @@
 
         "inst": "pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo071.mp3",
 
@@ -1507,7 +1653,8 @@
 },
 
 
-        {
+        {"id": "71",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1517,11 +1664,14 @@
 
         "inst": "pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo072.mp3",
 
@@ -1529,7 +1679,8 @@
 },
 
 
-        {
+        {"id": "72",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1549,7 +1700,8 @@
 },
 
 
-        {
+        {"id": "73",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1565,7 +1717,8 @@
 },
 
 
-        {
+        {"id": "74",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1575,11 +1728,14 @@
 
         "inst": "pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "só início, seguido de corte"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo075.mp3",
 
@@ -1587,7 +1743,8 @@
 },
 
 
-        {
+        {"id": "75",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1597,11 +1754,14 @@
 
         "inst": "pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo076.mp3",
 
@@ -1609,7 +1769,8 @@
 },
 
 
-        {
+        {"id": "76",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1619,11 +1780,14 @@
 
         "inst": "pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo077.mp3",
 
@@ -1631,7 +1795,8 @@
 },
 
 
-        {
+        {"id": "77",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1651,7 +1816,8 @@
 },
 
 
-        {
+        {"id": "78",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1661,11 +1827,14 @@
 
         "inst": "(ver anexo) almofariz;castanholas; pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo079.mp3",
 
@@ -1673,7 +1842,8 @@
 },
 
 
-        {
+        {"id": "79",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1683,11 +1853,14 @@
 
         "inst": "almofariz; castanholas; pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "só início e corta"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo080.mp3",
 
@@ -1695,7 +1868,8 @@
 },
 
 
-        {
+        {"id": "80",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1711,7 +1885,8 @@
 },
 
 
-        {
+        {"id": "81",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1721,11 +1896,14 @@
 
         "inst": "almofariz; castanholas; pandeiro",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo082e0.mp3",
 
@@ -1733,7 +1911,8 @@
 },
 
 
-        {
+        {"id": "82",
+        
 
         "prov": "Alto Alentejo",
 
@@ -1747,7 +1926,8 @@
 },
 
 
-        {
+        {"id": "83",
+        
 
         "prov": "Beira Baixa",
 
@@ -1763,7 +1943,8 @@
 },
 
 
-        {
+        {"id": "84",
+        
 
         "prov": "Beira Baixa",
 
@@ -1779,7 +1960,8 @@
 },
 
 
-        {
+        {"id": "85",
+        
 
         "prov": "Beira Baixa",
 
@@ -1795,7 +1977,8 @@
 },
 
 
-        {
+        {"id": "86",
+        
 
         "prov": "Beira Baixa",
 
@@ -1811,7 +1994,8 @@
 },
 
 
-        {
+        {"id": "87",
+        
 
         "prov": "Beira Baixa",
 
@@ -1825,7 +2009,8 @@
 },
 
 
-        {
+        {"id": "88",
+        
 
         "prov": "Beira Baixa",
 
@@ -1839,7 +2024,8 @@
 },
 
 
-        {
+        {"id": "89",
+        
 
         "prov": "Beira Baixa",
 
@@ -1855,7 +2041,8 @@
 },
 
 
-        {
+        {"id": "90",
+        
 
         "prov": "Beira Baixa",
 
@@ -1871,7 +2058,8 @@
 },
 
 
-        {
+        {"id": "91",
+        
 
         "prov": "Beira Baixa",
 
@@ -1887,7 +2075,8 @@
 },
 
 
-        {
+        {"id": "92",
+        
 
         "prov": "Beira Baixa",
 
@@ -1903,7 +2092,8 @@
 },
 
 
-        {
+        {"id": "93",
+        
 
         "prov": "Beira Baixa",
 
@@ -1917,7 +2107,8 @@
 },
 
 
-        {
+        {"id": "94",
+        
 
         "prov": "Beira Baixa",
 
@@ -1937,7 +2128,8 @@
 },
 
 
-        {
+        {"id": "95",
+        
 
         "prov": "Beira Baixa",
 
@@ -1953,7 +2145,8 @@
 },
 
 
-        {
+        {"id": "96",
+        
 
         "prov": "Beira Baixa",
 
@@ -1969,7 +2162,8 @@
 },
 
 
-        {
+        {"id": "97",
+        
 
         "prov": "Beira Baixa",
 
@@ -1989,7 +2183,8 @@
 },
 
 
-        {
+        {"id": "98",
+        
 
         "prov": "Beira Baixa",
 
@@ -2003,7 +2198,8 @@
 },
 
 
-        {
+        {"id": "99",
+        
 
         "prov": "Beira Baixa",
 
@@ -2025,7 +2221,8 @@
 },
 
 
-        {
+        {"id": "100",
+        
 
         "prov": "Beira Baixa",
 
@@ -2047,7 +2244,8 @@
 },
 
 
-        {
+        {"id": "101",
+        
 
         "prov": "Beira Baixa",
 
@@ -2063,7 +2261,8 @@
         ],
         "prof": "pastor"},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2072,7 +2271,9 @@
         ],
         "file": "audiocurswa/1104evo1.swa",
         "file": "audiocurmp3/1104evo1.mp3",
-        "intxt": "Flautas e ocarina"},
+        "intxt": "Flautas e ocarina"
+        }],
+    
 
         "file": "d1/evo103.mp3",
 
@@ -2080,7 +2281,8 @@
 },
 
 
-        {
+        {"id": "102",
+        
 
         "prov": "Beira Baixa",
 
@@ -2096,7 +2298,8 @@
 },
 
 
-        {
+        {"id": "103",
+        
 
         "prov": "Beira Baixa",
 
@@ -2110,7 +2313,8 @@
 },
 
 
-        {
+        {"id": "104",
+        
 
         "prov": "Beira Baixa",
 
@@ -2124,7 +2328,8 @@
 },
 
 
-        {
+        {"id": "105",
+        
 
         "prov": "Beira Baixa",
 
@@ -2138,7 +2343,8 @@
 },
 
 
-        {
+        {"id": "106",
+        
 
         "prov": "Beira Baixa",
 
@@ -2152,7 +2358,8 @@
 },
 
 
-        {
+        {"id": "107",
+        
 
         "prov": "Beira Baixa",
 
@@ -2166,7 +2373,8 @@
 },
 
 
-        {
+        {"id": "108",
+        
 
         "prov": "Beira Baixa",
 
@@ -2180,7 +2388,8 @@
 },
 
 
-        {
+        {"id": "109",
+        
 
         "prov": "Beira Baixa",
 
@@ -2200,7 +2409,8 @@
 },
 
 
-        {
+        {"id": "110",
+        
 
         "prov": "Beira Baixa",
 
@@ -2220,7 +2430,8 @@
 },
 
 
-        {
+        {"id": "111",
+        
 
         "prov": "Beira Baixa",
 
@@ -2234,7 +2445,8 @@
             "Maria de Gertrudes Nabais (adufe); Francisco Lourenço Carronco (flauta); Maria de Jesus Xavier Abelho (canto)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2243,7 +2455,9 @@
         ],
         "file": "audiocurswa/1105evo1.swa",
         "file": "audiocurmp3/1105evo1.mp3",
-        "intxt": "Flautas e ocarina"},
+        "intxt": "Flautas e ocarina"
+        }],
+    
 
         "file": "d1/evo113e1.mp3",
 
@@ -2251,7 +2465,8 @@
 },
 
 
-        {
+        {"id": "112",
+        
 
         "prov": "Beira Baixa",
 
@@ -2271,7 +2486,8 @@
 },
 
 
-        {
+        {"id": "113",
+        
 
         "prov": "Beira Baixa",
 
@@ -2287,7 +2503,8 @@
 },
 
 
-        {
+        {"id": "114",
+        
 
         "prov": "Beira Baixa",
 
@@ -2307,7 +2524,8 @@
 },
 
 
-        {
+        {"id": "115",
+        
 
         "prov": "Beira Baixa",
 
@@ -2327,7 +2545,8 @@
 },
 
 
-        {
+        {"id": "116",
+        
 
         "prov": "Beira Baixa",
 
@@ -2347,7 +2566,8 @@
 },
 
 
-        {
+        {"id": "117",
+        
 
         "prov": "Beira Baixa",
 
@@ -2367,7 +2587,8 @@
 },
 
 
-        {
+        {"id": "118",
+        
 
         "prov": "Beira Baixa",
 
@@ -2387,7 +2608,8 @@
 },
 
 
-        {
+        {"id": "119",
+        
 
         "prov": "Beira Baixa",
 
@@ -2407,7 +2629,8 @@
 },
 
 
-        {
+        {"id": "120",
+        
 
         "prov": "Beira Baixa",
 
@@ -2423,7 +2646,8 @@
 },
 
 
-        {
+        {"id": "121",
+        
 
         "prov": "Beira Baixa",
 
@@ -2443,7 +2667,8 @@
 },
 
 
-        {
+        {"id": "122",
+        
 
         "prov": "Beira Baixa",
 
@@ -2463,7 +2688,8 @@
 },
 
 
-        {
+        {"id": "123",
+        
 
         "prov": "Beira Baixa",
 
@@ -2473,11 +2699,14 @@
 
         "inst": "Genebres; viola; pandeireta",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo126.mp3",
 
@@ -2485,7 +2714,8 @@
 },
 
 
-        {
+        {"id": "124",
+        
 
         "prov": "Beira Baixa",
 
@@ -2495,7 +2725,8 @@
 
         "inst": "Genebres; viola; pandeireta",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2504,7 +2735,9 @@
         ],
         "file": "audiocurswa/0301evo1.swa",
         "file": "audiocurmp3/0301evo1.mp3",
-        "intxt": "Viola Beiroa"},
+        "intxt": "Viola Beiroa"
+        }],
+    
 
         "file": "d1/evo127.mp3",
 
@@ -2512,7 +2745,8 @@
 },
 
 
-        {
+        {"id": "125",
+        
 
         "prov": "Beira Baixa",
 
@@ -2528,7 +2762,8 @@
 },
 
 
-        {
+        {"id": "126",
+        
 
         "prov": "Beira Baixa",
 
@@ -2538,7 +2773,8 @@
 
         "inst": "guitarra",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2547,7 +2783,9 @@
         ],
         "file": "audiocurswa/0302evo1.swa",
         "file": "audiocurmp3/0302evo1.mp3",
-        "intxt": "Viola Beiroa"},
+        "intxt": "Viola Beiroa"
+        }],
+    
 
         "file": "d1/evo129.mp3",
 
@@ -2555,7 +2793,8 @@
 },
 
 
-        {
+        {"id": "127",
+        
 
         "prov": "Beira Baixa",
 
@@ -2571,7 +2810,8 @@
 },
 
 
-        {
+        {"id": "128",
+        
 
         "prov": "Beira Baixa",
 
@@ -2587,7 +2827,8 @@
 },
 
 
-        {
+        {"id": "129",
+        
 
         "prov": "Beira Baixa",
 
@@ -2597,13 +2838,16 @@
 
         "inst": "Ms",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "saturação"
-        ]},
+        ]
+        },
+    
 
-        "obs": {
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2612,7 +2856,9 @@
         ],
         "file": "audiocurswa/1403evo1.swa",
         "file": "audiocurmp3/1403evo1.mp3",
-        "intxt": "Pandeiros"},
+        "intxt": "Pandeiros"
+        }],
+    
 
         "file": "d1/evo132.mp3",
 
@@ -2620,7 +2866,8 @@
 },
 
 
-        {
+        {"id": "130",
+        
 
         "prov": "Minho",
 
@@ -2636,7 +2883,8 @@
 },
 
 
-        {
+        {"id": "131",
+        
 
         "prov": "Minho",
 
@@ -2652,7 +2900,8 @@
 },
 
 
-        {
+        {"id": "132",
+        
 
         "prov": "Minho",
 
@@ -2668,7 +2917,8 @@
 },
 
 
-        {
+        {"id": "133",
+        
 
         "prov": "Minho",
 
@@ -2688,7 +2938,8 @@
 },
 
 
-        {
+        {"id": "134",
+        
 
         "prov": "Minho",
 
@@ -2708,7 +2959,8 @@
 },
 
 
-        {
+        {"id": "135",
+        
 
         "prov": "Minho",
 
@@ -2724,7 +2976,8 @@
 },
 
 
-        {
+        {"id": "136",
+        
 
         "prov": "Minho",
 
@@ -2734,7 +2987,8 @@
 
         "inst": "Festada de Arnóia Rabeca; violão assurdinado; violão solto; viola braguesa, bombo, ferrinhos",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2743,13 +2997,17 @@
         ],
         "file": "audiocurswa/0701evo1.swa",
         "file": "audiocurmp3/0701evo1.mp3",
-        "intxt": "Chula"},
+        "intxt": "Chula"
+        },
+    
 
-        "obs": {
+        {
         "text":[
         
             "distorção na voz"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo139.mp3",
 
@@ -2757,7 +3015,8 @@
 },
 
 
-        {
+        {"id": "137",
+        
 
         "prov": "Minho",
 
@@ -2767,11 +3026,14 @@
 
         "inst": "Festada de Arnóia Rabeca; violão assurdinado; violão solto; viola braguesa, bombo, ferrinhos",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção na voz"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo140.mp3",
 
@@ -2779,7 +3041,8 @@
 },
 
 
-        {
+        {"id": "138",
+        
 
         "prov": "Minho",
 
@@ -2795,7 +3058,8 @@
 },
 
 
-        {
+        {"id": "139",
+        
 
         "prov": "Minho",
 
@@ -2805,17 +3069,22 @@
 
         "inst": "Festada de Arnóia Rabeca; violão assurdinado; violão solto; viola braguesa, bombo, ferrinhos",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção na voz do homem"
-        ]},
+        ]
+        },
+    
 
-        "obs": {
+        {
         "text":[
         
             "DESTAQUE DOS INSTRUMENTOS"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo142.mp3",
 
@@ -2823,7 +3092,8 @@
 },
 
 
-        {
+        {"id": "140",
+        
 
         "prov": "Minho",
 
@@ -2833,11 +3103,14 @@
 
         "inst": "Festada de Arnóia Rabeca; violão assurdinado; violão solto; viola braguesa, bombo, ferrinhos",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "DESTAQUE DOS INSTRUMENTOS"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo143.mp3",
 
@@ -2845,7 +3118,8 @@
 },
 
 
-        {
+        {"id": "141",
+        
 
         "prov": "Minho",
 
@@ -2861,7 +3135,8 @@
 },
 
 
-        {
+        {"id": "142",
+        
 
         "prov": "Douro Litoral",
 
@@ -2871,7 +3146,8 @@
 
         "inst": "Rabeca; viola; violão assurdinado; bombo; ferrinhos; cantadeira",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2879,7 +3155,9 @@
         ],
         "file": "audiocurswa/0702evo1.swa",
         "file": "audiocurmp3/0702evo1.mp3",
-        "intxt": "Chula"},
+        "intxt": "Chula"
+        }],
+    
 
         "file": "d1/evo145.mp3",
 
@@ -2887,7 +3165,8 @@
 },
 
 
-        {
+        {"id": "143",
+        
 
         "prov": "Douro Litoral",
 
@@ -2903,7 +3182,8 @@
 },
 
 
-        {
+        {"id": "144",
+        
 
         "prov": "Douro Litoral",
 
@@ -2919,7 +3199,8 @@
 },
 
 
-        {
+        {"id": "145",
+        
 
         "prov": "Minho",
 
@@ -2939,7 +3220,8 @@
 },
 
 
-        {
+        {"id": "146",
+        
 
         "prov": "Minho",
 
@@ -2953,7 +3235,8 @@
             "Bernardino da Silva (cavaquinho); Manuel da Silva (violão)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -2962,7 +3245,9 @@
         ],
         "file": "audiocurswa/0502evo1.swa",
         "file": "audiocurmp3/0502evo1.mp3",
-        "intxt": "Cavaquinho"},
+        "intxt": "Cavaquinho"
+        }],
+    
 
         "file": "d1/evo149.mp3",
 
@@ -2970,7 +3255,8 @@
 },
 
 
-        {
+        {"id": "147",
+        
 
         "prov": "Minho",
 
@@ -2990,7 +3276,8 @@
 },
 
 
-        {
+        {"id": "148",
+        
 
         "prov": "Minho",
 
@@ -3010,7 +3297,8 @@
 },
 
 
-        {
+        {"id": "149",
+        
 
         "prov": "Minho",
 
@@ -3030,7 +3318,8 @@
 },
 
 
-        {
+        {"id": "150",
+        
 
         "prov": "Minho",
 
@@ -3050,7 +3339,8 @@
 },
 
 
-        {
+        {"id": "151",
+        
 
         "prov": "Galiza",
 
@@ -3069,7 +3359,8 @@
 },
 
 
-        {
+        {"id": "152",
+        
 
         "prov": "Trás os Montes",
 
@@ -3090,7 +3381,8 @@
 },
 
 
-        {
+        {"id": "153",
+        
 
         "prov": "Trás os Montes",
 
@@ -3111,7 +3403,8 @@
 },
 
 
-        {
+        {"id": "154",
+        
 
         "prov": "Trás os Montes",
 
@@ -3132,7 +3425,8 @@
 },
 
 
-        {
+        {"id": "155",
+        
 
         "prov": "Beira Litoral",
 
@@ -3153,7 +3447,8 @@
 },
 
 
-        {
+        {"id": "156",
+        
 
         "prov": "Trás os Montes",
 
@@ -3174,7 +3469,8 @@
 },
 
 
-        {
+        {"id": "157",
+        
 
         "prov": "Trás os Montes",
 
@@ -3195,7 +3491,8 @@
 },
 
 
-        {
+        {"id": "158",
+        
 
         "prov": "Galiza",
 
@@ -3214,7 +3511,8 @@
 },
 
 
-        {
+        {"id": "159",
+        
 
         "prov": "Trás os Montes",
 
@@ -3228,7 +3526,8 @@
             "José João da Igreja (gaita de foles)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -3237,7 +3536,9 @@
         ],
         "file": "audiocurswa/1004evo1.swa",
         "file": "audiocurmp3/1004evo1.mp3",
-        "intxt": "Gaita de foles e palheta"},
+        "intxt": "Gaita de foles e palheta"
+        }],
+    
 
         "file": "d1/evo164.mp3",
 
@@ -3245,7 +3546,8 @@
 },
 
 
-        {
+        {"id": "160",
+        
 
         "prov": "Trás os Montes",
 
@@ -3265,7 +3567,8 @@
 },
 
 
-        {
+        {"id": "161",
+        
 
         "prov": "Trás os Montes",
 
@@ -3285,7 +3588,8 @@
 },
 
 
-        {
+        {"id": "162",
+        
 
         "prov": "Trás os Montes",
 
@@ -3305,7 +3609,8 @@
 },
 
 
-        {
+        {"id": "163",
+        
 
         "prov": "Trás os Montes",
 
@@ -3325,7 +3630,8 @@
 },
 
 
-        {
+        {"id": "164",
+        
 
         "prov": "Trás os Montes",
 
@@ -3345,7 +3651,8 @@
 },
 
 
-        {
+        {"id": "165",
+        
 
         "prov": "Beira Baixa",
 
@@ -3365,7 +3672,8 @@
 },
 
 
-        {
+        {"id": "166",
+        
 
         "prov": "Beira Baixa",
 
@@ -3385,7 +3693,8 @@
 },
 
 
-        {
+        {"id": "167",
+        
 
         "prov": "Beira Baixa",
 
@@ -3405,7 +3714,8 @@
 },
 
 
-        {
+        {"id": "168",
+        
 
         "prov": "Beira Baixa",
 
@@ -3425,7 +3735,8 @@
 },
 
 
-        {
+        {"id": "169",
+        
 
         "prov": "Beira Baixa",
 
@@ -3445,7 +3756,8 @@
 },
 
 
-        {
+        {"id": "170",
+        
 
         "prov": "Beira Baixa",
 
@@ -3465,7 +3777,8 @@
 },
 
 
-        {
+        {"id": "171",
+        
 
         "prov": "Beira Baixa",
 
@@ -3485,7 +3798,8 @@
 },
 
 
-        {
+        {"id": "172",
+        
 
         "prov": "Beira Baixa",
 
@@ -3505,7 +3819,8 @@
 },
 
 
-        {
+        {"id": "173",
+        
 
         "prov": "Beira Baixa",
 
@@ -3519,11 +3834,14 @@
             "Grupo folclórico de Monsanto (adufes)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção nas vozes"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo178.mp3",
 
@@ -3531,7 +3849,8 @@
 },
 
 
-        {
+        {"id": "174",
+        
 
         "prov": "Beira Baixa",
 
@@ -3545,11 +3864,14 @@
             "Grupo folclórico de Monsanto (adufes)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção nas vozes"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo179.mp3",
 
@@ -3557,7 +3879,8 @@
 },
 
 
-        {
+        {"id": "175",
+        
 
         "prov": "Beira Baixa",
 
@@ -3571,11 +3894,14 @@
             "Grupo folclórico de Monsanto"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção nas vozes"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo180.mp3",
 
@@ -3583,7 +3909,8 @@
 },
 
 
-        {
+        {"id": "176",
+        
 
         "prov": "Beira Baixa",
 
@@ -3603,7 +3930,8 @@
 },
 
 
-        {
+        {"id": "177",
+        
 
         "prov": "Beira Baixa",
 
@@ -3617,11 +3945,14 @@
             "Grupo folclórico de Monsanto (adufes)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção nas vozes"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo182.mp3",
 
@@ -3629,7 +3960,8 @@
 },
 
 
-        {
+        {"id": "178",
+        
 
         "prov": "Beira Baixa",
 
@@ -3649,7 +3981,8 @@
 },
 
 
-        {
+        {"id": "179",
+        
 
         "prov": "Beira Baixa",
 
@@ -3669,7 +4002,8 @@
 },
 
 
-        {
+        {"id": "180",
+        
 
         "prov": "Beira Baixa",
 
@@ -3683,7 +4017,8 @@
             "José dos Reis (palheta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -3692,7 +4027,9 @@
         ],
         "file": "audiocurswa/1201evo1.swa",
         "file": "audiocurmp3/1201evo1.mp3",
-        "intxt": "Gaita de foles e Palheta"},
+        "intxt": "Gaita de foles e Palheta"
+        }],
+    
 
         "file": "d1/evo185.mp3",
 
@@ -3700,7 +4037,8 @@
 },
 
 
-        {
+        {"id": "181",
+        
 
         "prov": "Beira Baixa",
 
@@ -3710,11 +4048,14 @@
 
         "inst": "flauta; adufe",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "distorção e interrupção"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo186.mp3",
 
@@ -3722,7 +4063,8 @@
 },
 
 
-        {
+        {"id": "182",
+        
 
         "prov": "Beira Baixa",
 
@@ -3738,7 +4080,8 @@
 },
 
 
-        {
+        {"id": "183",
+        
 
         "prov": "Beira Baixa",
 
@@ -3754,7 +4097,8 @@
 },
 
 
-        {
+        {"id": "184",
+        
 
         "prov": "Beira Baixa",
 
@@ -3770,7 +4114,8 @@
 },
 
 
-        {
+        {"id": "185",
+        
 
         "prov": "Beira Baixa",
 
@@ -3786,7 +4131,8 @@
 },
 
 
-        {
+        {"id": "186",
+        
 
         "prov": "Beira Baixa",
 
@@ -3802,7 +4148,8 @@
 },
 
 
-        {
+        {"id": "187",
+        
 
         "prov": "Beira Baixa",
 
@@ -3818,7 +4165,8 @@
 },
 
 
-        {
+        {"id": "188",
+        
 
         "prov": "Beira Baixa",
 
@@ -3834,7 +4182,8 @@
 },
 
 
-        {
+        {"id": "189",
+        
 
         "prov": "Beira Baixa",
 
@@ -3850,7 +4199,8 @@
 },
 
 
-        {
+        {"id": "190",
+        
 
         "prov": "Beira Baixa",
 
@@ -3866,7 +4216,8 @@
 },
 
 
-        {
+        {"id": "191",
+        
 
         "prov": "Beira Baixa",
 
@@ -3882,7 +4233,8 @@
 },
 
 
-        {
+        {"id": "192",
+        
 
         "prov": "Douro Litoral",
 
@@ -3902,7 +4254,8 @@
 },
 
 
-        {
+        {"id": "193",
+        
 
         "prov": "Douro Litoral",
 
@@ -3922,7 +4275,8 @@
 },
 
 
-        {
+        {"id": "194",
+        
 
         "prov": "Douro Litoral",
 
@@ -3942,7 +4296,8 @@
 },
 
 
-        {
+        {"id": "195",
+        
 
         "prov": "Douro Litoral",
 
@@ -3956,7 +4311,8 @@
             "Joaquim Cardoso da Silva (flauta de cana)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -3965,7 +4321,9 @@
         ],
         "file": "audiocurswa/1106evo2.swa",
         "file": "audiocurmp3/1106evo2.mp3",
-        "intxt": "Flautas e ocarina"},
+        "intxt": "Flautas e ocarina"
+        }],
+    
 
         "file": "d1/evo200a.mp3",
 
@@ -3973,7 +4331,8 @@
 },
 
 
-        {
+        {"id": "196",
+        
 
         "prov": "Douro Litoral",
 
@@ -3993,7 +4352,8 @@
 },
 
 
-        {
+        {"id": "197",
+        
 
         "prov": "Trás os Montes",
 
@@ -4013,7 +4373,8 @@
 },
 
 
-        {
+        {"id": "198",
+        
 
         "prov": "Trás os Montes",
 
@@ -4033,7 +4394,8 @@
 },
 
 
-        {
+        {"id": "199",
+        
 
         "prov": "Trás os Montes",
 
@@ -4053,7 +4415,8 @@
 },
 
 
-        {
+        {"id": "200",
+        
 
         "prov": "Trás os Montes",
 
@@ -4067,11 +4430,14 @@
             "António Inácio João (flauta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "baixa de nível"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo204.mp3",
 
@@ -4079,7 +4445,8 @@
 },
 
 
-        {
+        {"id": "201",
+        
 
         "prov": "Trás os Montes",
 
@@ -4093,11 +4460,14 @@
             "António Inácio João"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "CANTADO"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo204.mp3",
 
@@ -4105,7 +4475,8 @@
 },
 
 
-        {
+        {"id": "202",
+        
 
         "prov": "Trás os Montes",
 
@@ -4119,11 +4490,14 @@
             "António Inácio João (flauta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "cantado e depois tocado"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo206.mp3",
 
@@ -4131,7 +4505,8 @@
 },
 
 
-        {
+        {"id": "203",
+        
 
         "prov": "Trás os Montes",
 
@@ -4145,7 +4520,8 @@
             "António Inácio João (flauta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -4154,7 +4530,9 @@
         ],
         "file": "audiocurswa/1101evo2.swa",
         "file": "audiocurmp3/1101evo2.mp3",
-        "intxt": "Flautas e Ocarina"},
+        "intxt": "Flautas e Ocarina"
+        }],
+    
 
         "file": "d1/evo207.mp3",
 
@@ -4162,7 +4540,8 @@
 },
 
 
-        {
+        {"id": "204",
+        
 
         "prov": "Trás os Montes",
 
@@ -4176,11 +4555,14 @@
             "José Francisco Pires (flauta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "cantado e depois tocado"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo208.mp3",
 
@@ -4188,7 +4570,8 @@
 },
 
 
-        {
+        {"id": "205",
+        
 
         "prov": "Trás os Montes",
 
@@ -4202,11 +4585,14 @@
             "José Francisco Pires (flauta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "cantado e depois tocado"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo209.mp3",
 
@@ -4214,7 +4600,8 @@
 },
 
 
-        {
+        {"id": "206",
+        
 
         "prov": "Trás os Montes",
 
@@ -4228,11 +4615,14 @@
             "José Francisco Pires (flauta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "cantado e depois tocado"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo210.mp3",
 
@@ -4240,7 +4630,8 @@
 },
 
 
-        {
+        {"id": "207",
+        
 
         "prov": "Trás os Montes",
 
@@ -4254,7 +4645,8 @@
             "José Francisco Pires (tamboril e flauta)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -4263,7 +4655,9 @@
         ],
         "file": "audiocurswa/1102evo2.swa",
         "file": "audiocurmp3/1102evo2.mp3",
-        "intxt": "Flautas e ocarina"},
+        "intxt": "Flautas e ocarina"
+        }],
+    
 
         "file": "d1/evo211.mp3",
 
@@ -4271,7 +4665,8 @@
 },
 
 
-        {
+        {"id": "208",
+        
 
         "prov": "Trás os Montes",
 
@@ -4291,7 +4686,8 @@
 },
 
 
-        {
+        {"id": "209",
+        
 
         "prov": "Trás os Montes",
 
@@ -4311,7 +4707,8 @@
 },
 
 
-        {
+        {"id": "210",
+        
 
         "prov": "Trás os Montes",
 
@@ -4331,7 +4728,8 @@
 },
 
 
-        {
+        {"id": "211",
+        
 
         "prov": "Trás os Montes",
 
@@ -4351,7 +4749,8 @@
 },
 
 
-        {
+        {"id": "212",
+        
 
         "prov": "Trás os Montes",
 
@@ -4371,7 +4770,8 @@
 },
 
 
-        {
+        {"id": "213",
+        
 
         "prov": "Trás os Montes",
 
@@ -4391,7 +4791,8 @@
 },
 
 
-        {
+        {"id": "214",
+        
 
         "prov": "Trás os Montes",
 
@@ -4411,7 +4812,8 @@
 },
 
 
-        {
+        {"id": "215",
+        
 
         "prov": "Trás os Montes",
 
@@ -4431,7 +4833,8 @@
 },
 
 
-        {
+        {"id": "216",
+        
 
         "prov": "Trás os Montes",
 
@@ -4451,7 +4854,8 @@
 },
 
 
-        {
+        {"id": "217",
+        
 
         "prov": "Trás os Montes",
 
@@ -4471,7 +4875,8 @@
 },
 
 
-        {
+        {"id": "218",
+        
 
         "prov": "Trás os Montes",
 
@@ -4491,7 +4896,8 @@
 },
 
 
-        {
+        {"id": "219",
+        
 
         "prov": "Trás os Montes",
 
@@ -4511,7 +4917,8 @@
 },
 
 
-        {
+        {"id": "220",
+        
 
         "prov": "Trás os Montes",
 
@@ -4531,7 +4938,8 @@
 },
 
 
-        {
+        {"id": "221",
+        
 
         "prov": "Trás os Montes",
 
@@ -4551,7 +4959,8 @@
 },
 
 
-        {
+        {"id": "222",
+        
 
         "prov": "Trás os Montes",
 
@@ -4571,7 +4980,8 @@
 },
 
 
-        {
+        {"id": "223",
+        
 
         "prov": "Trás os Montes",
 
@@ -4591,7 +5001,8 @@
 },
 
 
-        {
+        {"id": "224",
+        
 
         "prov": "Trás os Montes",
 
@@ -4611,7 +5022,8 @@
 },
 
 
-        {
+        {"id": "225",
+        
 
         "prov": "Trás os Montes",
 
@@ -4631,7 +5043,8 @@
 },
 
 
-        {
+        {"id": "226",
+        
 
         "prov": "Trás os Montes",
 
@@ -4651,7 +5064,8 @@
 },
 
 
-        {
+        {"id": "227",
+        
 
         "prov": "Trás os Montes",
 
@@ -4665,7 +5079,8 @@
             "José João da Igreja (gaita de foles)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -4674,7 +5089,9 @@
         ],
         "file": "audiocurswa/1003evo2.swa",
         "file": "audiocurmp3/1003evo2.mp3",
-        "intxt": "Gaita de Foles e Palheta"},
+        "intxt": "Gaita de Foles e Palheta"
+        }],
+    
 
         "file": "d1/evo231.mp3",
 
@@ -4682,7 +5099,8 @@
 },
 
 
-        {
+        {"id": "228",
+        
 
         "prov": "Trás os Montes",
 
@@ -4702,7 +5120,8 @@
 },
 
 
-        {
+        {"id": "229",
+        
 
         "prov": "Trás os Montes",
 
@@ -4722,7 +5141,8 @@
 },
 
 
-        {
+        {"id": "230",
+        
 
         "prov": "Trás os Montes",
 
@@ -4742,7 +5162,8 @@
 },
 
 
-        {
+        {"id": "231",
+        
 
         "prov": "Trás os Montes",
 
@@ -4762,7 +5183,8 @@
 },
 
 
-        {
+        {"id": "232",
+        
 
         "prov": "Trás os Montes",
 
@@ -4782,7 +5204,8 @@
 },
 
 
-        {
+        {"id": "233",
+        
 
         "prov": "Alentejo",
 
@@ -4802,7 +5225,8 @@
 },
 
 
-        {
+        {"id": "234",
+        
 
         "prov": "Alentejo",
 
@@ -4822,7 +5246,8 @@
 },
 
 
-        {
+        {"id": "235",
+        
 
         "prov": "Alentejo",
 
@@ -4842,7 +5267,8 @@
 },
 
 
-        {
+        {"id": "236",
+        
 
         "prov": "Alentejo",
 
@@ -4862,7 +5288,8 @@
 },
 
 
-        {
+        {"id": "237",
+        
 
         "prov": "Alentejo",
 
@@ -4882,7 +5309,8 @@
 },
 
 
-        {
+        {"id": "238",
+        
 
         "prov": "Minho",
 
@@ -4902,7 +5330,8 @@
 },
 
 
-        {
+        {"id": "239",
+        
 
         "prov": "Minho",
 
@@ -4918,7 +5347,8 @@
 },
 
 
-        {
+        {"id": "240",
+        
 
         "prov": "Minho",
 
@@ -4934,7 +5364,8 @@
 },
 
 
-        {
+        {"id": "241",
+        
 
         "prov": "Minho",
 
@@ -4948,7 +5379,8 @@
 },
 
 
-        {
+        {"id": "242",
+        
 
         "prov": "Minho",
 
@@ -4962,7 +5394,8 @@
 },
 
 
-        {
+        {"id": "243",
+        
 
         "prov": "Trás os Montes",
 
@@ -4982,7 +5415,8 @@
 },
 
 
-        {
+        {"id": "244",
+        
 
         "prov": "Trás os Montes",
 
@@ -5002,7 +5436,8 @@
 },
 
 
-        {
+        {"id": "245",
+        
 
         "prov": "Trás os Montes",
 
@@ -5016,7 +5451,8 @@
             "Carlos Gonçalves (gaita de foles); Augusto Diegues(caixa); Isaías Azevedo(bombo)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -5025,7 +5461,9 @@
         ],
         "file": "audiocurswa/1001evo2.swa",
         "file": "audiocurmp3/1001evo2.mp3",
-        "intxt": "Gaita de Foles e Palheta"},
+        "intxt": "Gaita de Foles e Palheta"
+        }],
+    
 
         "file": "d1/evo249.mp3",
 
@@ -5033,7 +5471,8 @@
 },
 
 
-        {
+        {"id": "246",
+        
 
         "prov": "Trás os Montes",
 
@@ -5047,7 +5486,8 @@
             "Carlos Gonçalves (gaita de foles); Maria do Carmo Garcia(pandeiro); Iría dos Anjos(ferranholas)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -5056,7 +5496,9 @@
         ],
         "file": "audiocurswa/1002evo2.swa",
         "file": "audiocurmp3/1002evo2.mp3",
-        "intxt": "Gaita de Foles e Palheta"},
+        "intxt": "Gaita de Foles e Palheta"
+        }],
+    
 
         "file": "d1/evo250.mp3",
 
@@ -5064,7 +5506,8 @@
 },
 
 
-        {
+        {"id": "247",
+        
 
         "prov": "Trás os Montes",
 
@@ -5078,7 +5521,8 @@
             "Felismina de Jesus Sampaio"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -5087,7 +5531,9 @@
         ],
         "file": "audiocurswa/1401evo2.swa",
         "file": "audiocurmp3/1401evo2.mp3",
-        "intxt": "Pandeiros"},
+        "intxt": "Pandeiros"
+        }],
+    
 
         "file": "d1/evo251.mp3",
 
@@ -5095,7 +5541,8 @@
 },
 
 
-        {
+        {"id": "248",
+        
 
         "prov": "Trás os Montes",
 
@@ -5115,7 +5562,8 @@
 },
 
 
-        {
+        {"id": "249",
+        
 
         "prov": "Trás os Montes",
 
@@ -5129,7 +5577,8 @@
 },
 
 
-        {
+        {"id": "250",
+        
 
         "prov": "Trás os Montes",
 
@@ -5149,7 +5598,8 @@
 },
 
 
-        {
+        {"id": "251",
+        
 
         "prov": "Trás os Montes",
 
@@ -5169,7 +5619,8 @@
 },
 
 
-        {
+        {"id": "252",
+        
 
         "prov": "Trás os Montes",
 
@@ -5189,7 +5640,8 @@
 },
 
 
-        {
+        {"id": "253",
+        
 
         "prov": "Trás os Montes",
 
@@ -5203,7 +5655,8 @@
             "Maria Gordilha (pandeiro)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -5212,7 +5665,9 @@
         ],
         "file": "audiocurswa/1402evo2.swa",
         "file": "audiocurmp3/1402evo2.mp3",
-        "intxt": "Pandeiros"},
+        "intxt": "Pandeiros"
+        }],
+    
 
         "file": "d1/evo257.mp3",
 
@@ -5220,7 +5675,8 @@
 },
 
 
-        {
+        {"id": "254",
+        
 
         "prov": "Trás os Montes",
 
@@ -5240,7 +5696,8 @@
 },
 
 
-        {
+        {"id": "255",
+        
 
         "prov": "Trás os Montes",
 
@@ -5254,11 +5711,14 @@
             "Arménio José Alves (ferrinhos); ferranholas; pandeiro"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "só o acompanhamento, sem gaita de foles"
-        ]},
+        ]
+        }],
+    
 
         "file": "d1/evo259.mp3",
 
@@ -5266,7 +5726,8 @@
 },
 
 
-        {
+        {"id": "256",
+        
 
         "prov": "Trás os Montes",
 
@@ -5286,7 +5747,8 @@
 },
 
 
-        {
+        {"id": "257",
+        
 
         "prov": "Trás os Montes",
 
@@ -5306,7 +5768,8 @@
 },
 
 
-        {
+        {"id": "258",
+        
 
         "prov": "Trás os Montes",
 
@@ -5326,7 +5789,8 @@
 },
 
 
-        {
+        {"id": "259",
+        
 
         "prov": "Trás os Montes",
 
@@ -5346,7 +5810,8 @@
 },
 
 
-        {
+        {"id": "260",
+        
 
         "prov": "Trás os Montes",
 
@@ -5366,7 +5831,8 @@
 },
 
 
-        {
+        {"id": "261",
+        
 
         "prov": "Trás os Montes",
 
@@ -5386,7 +5852,8 @@
 },
 
 
-        {
+        {"id": "262",
+        
 
         "prov": "Trás os Montes",
 
@@ -5406,7 +5873,8 @@
 },
 
 
-        {
+        {"id": "263",
+        
 
         "prov": "Trás os Montes",
 
@@ -5426,7 +5894,8 @@
 },
 
 
-        {
+        {"id": "264",
+        
 
         "prov": "Trás os Montes",
 
@@ -5446,7 +5915,8 @@
 },
 
 
-        {
+        {"id": "265",
+        
 
         "prov": "Trás os Montes",
 
@@ -5466,7 +5936,8 @@
 },
 
 
-        {
+        {"id": "266",
+        
 
         "prov": "Trás os Montes",
 
@@ -5482,7 +5953,8 @@
 },
 
 
-        {
+        {"id": "267",
+        
 
         "prov": "Trás os Montes",
 
@@ -5498,7 +5970,8 @@
 },
 
 
-        {
+        {"id": "268",
+        
 
         "prov": "Trás os Montes",
 
@@ -5514,7 +5987,8 @@
 },
 
 
-        {
+        {"id": "269",
+        
 
         "prov": "Trás os Montes",
 
@@ -5534,7 +6008,8 @@
 },
 
 
-        {
+        {"id": "270",
+        
 
         "prov": "Trás os Montes",
 
@@ -5554,7 +6029,8 @@
 },
 
 
-        {
+        {"id": "271",
+        
 
         "prov": "Trás os Montes",
 
@@ -5574,7 +6050,8 @@
 },
 
 
-        {
+        {"id": "272",
+        
 
         "prov": "Trás os Montes",
 
@@ -5594,7 +6071,8 @@
 },
 
 
-        {
+        {"id": "273",
+        
 
         "prov": "Trás os Montes",
 
@@ -5614,7 +6092,8 @@
 },
 
 
-        {
+        {"id": "274",
+        
 
         "prov": "Trás os Montes",
 
@@ -5634,7 +6113,8 @@
 },
 
 
-        {
+        {"id": "275",
+        
 
         "prov": "Trás os Montes",
 
@@ -5654,7 +6134,8 @@
 },
 
 
-        {
+        {"id": "276",
+        
 
         "prov": "Trás os Montes",
 
@@ -5674,7 +6155,8 @@
 },
 
 
-        {
+        {"id": "277",
+        
 
         "prov": "Trás os Montes",
 
@@ -5694,7 +6176,8 @@
 },
 
 
-        {
+        {"id": "278",
+        
 
         "prov": "Trás os Montes",
 
@@ -5714,7 +6197,8 @@
 },
 
 
-        {
+        {"id": "279",
+        
 
         "prov": "Trás os Montes",
 
@@ -5728,7 +6212,8 @@
             "Juan Prieto Ximeno (gaita de foles); João Manuel Fernandes (tambor)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -5737,7 +6222,9 @@
         ],
         "file": "audiocurswa/1005evo2.swa",
         "file": "audiocurmp3/1005evo2.mp3",
-        "intxt": "Gaita de Foles e Palheta"},
+        "intxt": "Gaita de Foles e Palheta"
+        }],
+    
 
         "file": "d1/evo283.mp3",
 
@@ -5745,7 +6232,8 @@
 },
 
 
-        {
+        {"id": "280",
+        
 
         "prov": "Trás os Montes",
 
@@ -5765,7 +6253,8 @@
 },
 
 
-        {
+        {"id": "281",
+        
 
         "prov": "Trás os Montes",
 
@@ -5785,7 +6274,8 @@
 },
 
 
-        {
+        {"id": "282",
+        
 
         "prov": "Trás os Montes",
 
@@ -5805,7 +6295,8 @@
 },
 
 
-        {
+        {"id": "283",
+        
 
         "prov": "Trás os Montes",
 
@@ -5825,7 +6316,8 @@
 },
 
 
-        {
+        {"id": "284",
+        
 
         "prov": "Trás os Montes",
 
@@ -5845,7 +6337,8 @@
 },
 
 
-        {
+        {"id": "285",
+        
 
         "prov": "Trás os Montes",
 
@@ -5865,7 +6358,8 @@
 },
 
 
-        {
+        {"id": "286",
+        
 
         "prov": "Trás os Montes",
 
@@ -5885,7 +6379,8 @@
 },
 
 
-        {
+        {"id": "287",
+        
 
         "prov": "Trás os Montes",
 
@@ -5905,7 +6400,8 @@
 },
 
 
-        {
+        {"id": "288",
+        
 
         "prov": "Trás os Montes",
 
@@ -5925,7 +6421,8 @@
 },
 
 
-        {
+        {"id": "289",
+        
 
         "prov": "Trás os Montes",
 
@@ -5945,7 +6442,8 @@
 },
 
 
-        {
+        {"id": "290",
+        
 
         "prov": "Trás os Montes",
 
@@ -5965,7 +6463,8 @@
 },
 
 
-        {
+        {"id": "291",
+        
 
         "prov": "Minho",
 
@@ -5985,7 +6484,8 @@
 },
 
 
-        {
+        {"id": "292",
+        
 
         "prov": "Minho",
 
@@ -6005,7 +6505,8 @@
 },
 
 
-        {
+        {"id": "293",
+        
 
         "prov": "Minho",
 
@@ -6025,7 +6526,8 @@
 },
 
 
-        {
+        {"id": "294",
+        
 
         "prov": "Minho",
 
@@ -6039,7 +6541,8 @@
             "José Alves de Mesquita (viola amarantina)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -6048,7 +6551,9 @@
         ],
         "file": "audiocurswa/0103evo2.swa",
         "file": "audiocurmp3/0103evo2.mp3",
-        "intxt": "Viola amarantina"},
+        "intxt": "Viola amarantina"
+        }],
+    
 
         "file": "d1/evo298.mp3",
 
@@ -6056,7 +6561,8 @@
 },
 
 
-        {
+        {"id": "295",
+        
 
         "prov": "Minho",
 
@@ -6076,7 +6582,8 @@
 },
 
 
-        {
+        {"id": "296",
+        
 
         "prov": "Minho",
 
@@ -6090,7 +6597,8 @@
             "José Alves de Mesquita (viola amarantina)"
         ]},
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Partitura, versão curta",
@@ -6099,7 +6607,9 @@
         ],
         "file": "audiocurswa/0102evo3.swa",
         "file": "audiocurmp3/0102evo3.mp3",
-        "intxt": "Viola amarantina"},
+        "intxt": "Viola amarantina"
+        }],
+    
 
         "file": "d2/evo300.mp3",
 
@@ -6107,7 +6617,8 @@
 },
 
 
-        {
+        {"id": "297",
+        
 
         "prov": "Beira Baixa",
 
@@ -6123,7 +6634,8 @@
 },
 
 
-        {
+        {"id": "298",
+        
 
         "prov": "Beira Baixa",
 
@@ -6139,7 +6651,8 @@
 },
 
 
-        {
+        {"id": "299",
+        
 
         "prov": "Beira Baixa",
 
@@ -6155,7 +6668,8 @@
 },
 
 
-        {
+        {"id": "300",
+        
 
         "prov": "Beira Baixa",
 
@@ -6171,7 +6685,8 @@
 },
 
 
-        {
+        {"id": "301",
+        
 
         "prov": "Beira Baixa",
 
@@ -6191,7 +6706,8 @@
 },
 
 
-        {
+        {"id": "302",
+        
 
         "prov": "Beira Baixa",
 
@@ -6211,7 +6727,8 @@
 },
 
 
-        {
+        {"id": "303",
+        
 
         "prov": "Beira Baixa",
 
@@ -6231,7 +6748,8 @@
 },
 
 
-        {
+        {"id": "304",
+        
 
         "prov": "Beira Baixa",
 
@@ -6251,7 +6769,8 @@
 },
 
 
-        {
+        {"id": "305",
+        
 
         "prov": "Beira Baixa",
 
@@ -6271,7 +6790,8 @@
 },
 
 
-        {
+        {"id": "306",
+        
 
         "prov": "Beira Baixa",
 
@@ -6291,7 +6811,8 @@
 },
 
 
-        {
+        {"id": "307",
+        
 
         "prov": "Beira Baixa",
 
@@ -6311,7 +6832,8 @@
 },
 
 
-        {
+        {"id": "308",
+        
 
         "prov": "Beira Baixa",
 
@@ -6331,7 +6853,8 @@
 },
 
 
-        {
+        {"id": "309",
+        
 
         "prov": "Beira Baixa",
 
@@ -6351,7 +6874,8 @@
 },
 
 
-        {
+        {"id": "310",
+        
 
         "prov": "Beira Baixa",
 
@@ -6371,7 +6895,8 @@
 },
 
 
-        {
+        {"id": "311",
+        
 
         "prov": "Beira Baixa",
 
@@ -6391,7 +6916,8 @@
 },
 
 
-        {
+        {"id": "312",
+        
 
         "prov": "Beira Baixa",
 
@@ -6411,7 +6937,8 @@
 },
 
 
-        {
+        {"id": "313",
+        
 
         "prov": "Beira Baixa",
 
@@ -6431,7 +6958,8 @@
 },
 
 
-        {
+        {"id": "314",
+        
 
         "prov": "Beira Baixa",
 
@@ -6451,7 +6979,8 @@
 },
 
 
-        {
+        {"id": "315",
+        
 
         "prov": "Beira Baixa",
 
@@ -6471,7 +7000,8 @@
 },
 
 
-        {
+        {"id": "316",
+        
 
         "prov": "Beira Baixa",
 
@@ -6491,7 +7021,8 @@
 },
 
 
-        {
+        {"id": "317",
+        
 
         "prov": "Beira Baixa",
 
@@ -6511,7 +7042,8 @@
 },
 
 
-        {
+        {"id": "318",
+        
 
         "prov": "Beira Baixa",
 
@@ -6531,7 +7063,8 @@
 },
 
 
-        {
+        {"id": "319",
+        
 
         "prov": "Beira Baixa",
 
@@ -6547,7 +7080,8 @@
 },
 
 
-        {
+        {"id": "320",
+        
 
         "prov": "Beira Baixa",
 
@@ -6557,11 +7091,14 @@
 
         "inst": "M; adufe",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "incompleta"
-        ]},
+        ]
+        }],
+    
 
         "file": "d2/evo324.mp3",
 
@@ -6569,7 +7106,8 @@
 },
 
 
-        {
+        {"id": "321",
+        
 
         "prov": "Beira Baixa",
 
@@ -6579,11 +7117,14 @@
 
         "inst": "genebres; viola beiroa",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "vento no microfone e interrupções"
-        ]},
+        ]
+        }],
+    
 
         "file": "d2/evo325.mp3",
 
@@ -6591,7 +7132,8 @@
 },
 
 
-        {
+        {"id": "322",
+        
 
         "prov": "Beira Baixa",
 
@@ -6609,7 +7151,8 @@
 },
 
 
-        {
+        {"id": "323",
+        
 
         "prov": "Beira Baixa",
 
@@ -6627,7 +7170,8 @@
 },
 
 
-        {
+        {"id": "324",
+        
 
         "prov": "Beira Baixa",
 
@@ -6645,7 +7189,8 @@
 },
 
 
-        {
+        {"id": "325",
+        
 
         "prov": "Beira Baixa",
 
@@ -6663,7 +7208,8 @@
 },
 
 
-        {
+        {"id": "326",
+        
 
         "prov": "Beira Baixa",
 
@@ -6681,7 +7227,8 @@
 },
 
 
-        {
+        {"id": "327",
+        
 
         "prov": "Minho",
 
@@ -6695,7 +7242,8 @@
 },
 
 
-        {
+        {"id": "328",
+        
 
         "prov": "Minho",
 
@@ -6709,7 +7257,8 @@
 },
 
 
-        {
+        {"id": "329",
+        
 
         "prov": "Minho",
 
@@ -6723,7 +7272,8 @@
 },
 
 
-        {
+        {"id": "330",
+        
 
         "prov": "Minho",
 
@@ -6737,7 +7287,8 @@
 },
 
 
-        {
+        {"id": "331",
+        
 
         "prov": "Minho",
 
@@ -6751,7 +7302,8 @@
 },
 
 
-        {
+        {"id": "332",
+        
 
         "prov": "Minho",
 
@@ -6767,7 +7319,8 @@
 },
 
 
-        {
+        {"id": "333",
+        
 
         "prov": "Minho",
 
@@ -6783,7 +7336,8 @@
 },
 
 
-        {
+        {"id": "334",
+        
 
         "prov": "Minho",
 
@@ -6799,7 +7353,8 @@
 },
 
 
-        {
+        {"id": "335",
+        
 
         "prov": "Minho",
 
@@ -6813,7 +7368,8 @@
 },
 
 
-        {
+        {"id": "336",
+        
 
         "prov": "Minho",
 
@@ -6827,7 +7383,8 @@
 },
 
 
-        {
+        {"id": "337",
+        
 
         "prov": "Minho",
 
@@ -6843,7 +7400,8 @@
 },
 
 
-        {
+        {"id": "338",
+        
 
         "prov": "Beira Baixa",
 
@@ -6853,11 +7411,14 @@
 
         "inst": "Hs; Ms",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "não identificado no original"
-        ]},
+        ]
+        }],
+    
 
         "file": "d2/evo341.mp3",
 
@@ -6865,7 +7426,8 @@
 },
 
 
-        {
+        {"id": "339",
+        
 
         "prov": "Beira Baixa",
 
@@ -6881,7 +7443,8 @@
 },
 
 
-        {
+        {"id": "340",
+        
 
         "prov": "Beira Baixa",
 
@@ -6897,7 +7460,8 @@
 },
 
 
-        {
+        {"id": "341",
+        
 
         "prov": "Beira Baixa",
 
@@ -6913,7 +7477,8 @@
 },
 
 
-        {
+        {"id": "342",
+        
 
         "prov": "Beira Baixa",
 
@@ -6929,7 +7494,8 @@
 },
 
 
-        {
+        {"id": "343",
+        
 
         "prov": "Beira Baixa",
 
@@ -6945,7 +7511,8 @@
 },
 
 
-        {
+        {"id": "344",
+        
 
         "prov": "Beira Baixa",
 
@@ -6955,11 +7522,14 @@
 
         "inst": "viola beiroa; genebres",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "algumas interrupções"
-        ]},
+        ]
+        }],
+    
 
         "file": "d2/evo347.mp3",
 
@@ -6967,7 +7537,8 @@
 },
 
 
-        {
+        {"id": "345",
+        
 
         "prov": "Beira Baixa",
 
@@ -6977,11 +7548,14 @@
 
         "inst": "guitarra; genebres",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "algumas interrupções"
-        ]},
+        ]
+        }],
+    
 
         "file": "d2/evo348.mp3",
 
@@ -6989,7 +7563,8 @@
 },
 
 
-        {
+        {"id": "346",
+        
 
         "prov": "Beira Litoral",
 
@@ -7009,7 +7584,8 @@
 },
 
 
-        {
+        {"id": "347",
+        
 
         "prov": "Beira Litoral",
 
@@ -7029,7 +7605,8 @@
 },
 
 
-        {
+        {"id": "348",
+        
 
         "prov": "Trás os Montes",
 
@@ -7049,7 +7626,8 @@
 },
 
 
-        {
+        {"id": "349",
+        
 
         "prov": "Trás os Montes",
 
@@ -7069,7 +7647,8 @@
 },
 
 
-        {
+        {"id": "350",
+        
 
         "prov": "Trás os Montes",
 
@@ -7089,7 +7668,8 @@
 },
 
 
-        {
+        {"id": "351",
+        
 
         "prov": "Trás os Montes",
 
@@ -7109,7 +7689,8 @@
 },
 
 
-        {
+        {"id": "352",
+        
 
         "prov": "Trás os Montes",
 
@@ -7129,7 +7710,8 @@
 },
 
 
-        {
+        {"id": "353",
+        
 
         "prov": "Trás os Montes",
 
@@ -7149,7 +7731,8 @@
 },
 
 
-        {
+        {"id": "354",
+        
 
         "prov": "Trás os Montes",
 
@@ -7169,7 +7752,8 @@
 },
 
 
-        {
+        {"id": "355",
+        
 
         "prov": "Trás os Montes",
 
@@ -7189,7 +7773,8 @@
 },
 
 
-        {
+        {"id": "356",
+        
 
         "prov": "Açores",
 
@@ -7197,11 +7782,14 @@
 
         "tit": "Folia do Espírito Santo",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "gravada na rua"
-        ]},
+        ]
+        }],
+    
 
         "file": "d2/evo360.mp3",
 
@@ -7209,7 +7797,8 @@
 },
 
 
-        {
+        {"id": "357",
+        
 
         "prov": "Açores",
 
@@ -7225,7 +7814,8 @@
 },
 
 
-        {
+        {"id": "358",
+        
 
         "prov": "Açores",
 
@@ -7241,7 +7831,8 @@
 },
 
 
-        {
+        {"id": "359",
+        
 
         "prov": "Açores",
 
@@ -7257,7 +7848,8 @@
 },
 
 
-        {
+        {"id": "360",
+        
 
         "prov": "Açores",
 
@@ -7277,7 +7869,8 @@
 },
 
 
-        {
+        {"id": "361",
+        
 
         "prov": "Açores",
 
@@ -7297,7 +7890,8 @@
 },
 
 
-        {
+        {"id": "362",
+        
 
         "prov": "Açores",
 
@@ -7317,7 +7911,8 @@
 },
 
 
-        {
+        {"id": "363",
+        
 
         "prov": "Açores",
 
@@ -7337,7 +7932,8 @@
 },
 
 
-        {
+        {"id": "364",
+        
 
         "prov": "Açores",
 
@@ -7357,7 +7953,8 @@
 },
 
 
-        {
+        {"id": "365",
+        
 
         "prov": "Açores",
 
@@ -7377,7 +7974,8 @@
 },
 
 
-        {
+        {"id": "366",
+        
 
         "prov": "Açores",
 
@@ -7397,7 +7995,8 @@
 },
 
 
-        {
+        {"id": "367",
+        
 
         "prov": "Açores",
 
@@ -7417,7 +8016,8 @@
 },
 
 
-        {
+        {"id": "368",
+        
 
         "prov": "Açores",
 
@@ -7437,7 +8037,8 @@
 },
 
 
-        {
+        {"id": "369",
+        
 
         "prov": "Açores",
 
@@ -7457,7 +8058,8 @@
 },
 
 
-        {
+        {"id": "370",
+        
 
         "prov": "Açores",
 
@@ -7477,7 +8079,8 @@
 },
 
 
-        {
+        {"id": "371",
+        
 
         "prov": "Açores",
 
@@ -7493,7 +8096,8 @@
 },
 
 
-        {
+        {"id": "372",
+        
 
         "prov": "Açores",
 
@@ -7509,7 +8113,8 @@
 },
 
 
-        {
+        {"id": "373",
+        
 
         "prov": "Açores",
 
@@ -7525,7 +8130,8 @@
 },
 
 
-        {
+        {"id": "374",
+        
 
         "prov": "Açores",
 
@@ -7541,7 +8147,8 @@
 },
 
 
-        {
+        {"id": "375",
+        
 
         "prov": "Açores",
 
@@ -7557,7 +8164,8 @@
 },
 
 
-        {
+        {"id": "376",
+        
 
         "prov": "Açores",
 
@@ -7573,7 +8181,8 @@
 },
 
 
-        {
+        {"id": "377",
+        
 
         "prov": "Açores",
 
@@ -7589,7 +8198,8 @@
 },
 
 
-        {
+        {"id": "378",
+        
 
         "prov": "Açores",
 
@@ -7605,7 +8215,8 @@
 },
 
 
-        {
+        {"id": "379",
+        
 
         "prov": "Açores",
 
@@ -7621,7 +8232,8 @@
 },
 
 
-        {
+        {"id": "380",
+        
 
         "prov": "Açores",
 
@@ -7637,7 +8249,8 @@
 },
 
 
-        {
+        {"id": "381",
+        
 
         "prov": "Açores",
 
@@ -7653,7 +8266,8 @@
 },
 
 
-        {
+        {"id": "382",
+        
 
         "prov": "Açores",
 
@@ -7669,7 +8283,8 @@
 },
 
 
-        {
+        {"id": "383",
+        
 
         "prov": "Açores",
 
@@ -7683,7 +8298,8 @@
 },
 
 
-        {
+        {"id": "384",
+        
 
         "prov": "Açores",
 
@@ -7699,7 +8315,8 @@
 },
 
 
-        {
+        {"id": "385",
+        
 
         "prov": "Açores",
 
@@ -7715,7 +8332,8 @@
 },
 
 
-        {
+        {"id": "386",
+        
 
         "prov": "Açores",
 
@@ -7731,7 +8349,8 @@
 },
 
 
-        {
+        {"id": "387",
+        
 
         "prov": "Açores",
 
@@ -7745,7 +8364,8 @@
 },
 
 
-        {
+        {"id": "388",
+        
 
         "prov": "Açores",
 
@@ -7759,7 +8379,8 @@
 },
 
 
-        {
+        {"id": "389",
+        
 
         "prov": "Açores",
 
@@ -7773,7 +8394,8 @@
 },
 
 
-        {
+        {"id": "390",
+        
 
         "prov": "Açores",
 
@@ -7789,7 +8411,8 @@
 },
 
 
-        {
+        {"id": "391",
+        
 
         "prov": "Açores",
 
@@ -7805,7 +8428,8 @@
 },
 
 
-        {
+        {"id": "392",
+        
 
         "prov": "Açores",
 
@@ -7821,7 +8445,8 @@
 },
 
 
-        {
+        {"id": "393",
+        
 
         "prov": "Açores",
 
@@ -7837,7 +8462,8 @@
 },
 
 
-        {
+        {"id": "394",
+        
 
         "prov": "Açores",
 
@@ -7853,7 +8479,8 @@
 },
 
 
-        {
+        {"id": "395",
+        
 
         "prov": "Açores",
 
@@ -7869,7 +8496,8 @@
 },
 
 
-        {
+        {"id": "396",
+        
 
         "prov": "Açores",
 
@@ -7885,7 +8513,8 @@
 },
 
 
-        {
+        {"id": "397",
+        
 
         "prov": "Açores",
 
@@ -7901,7 +8530,8 @@
 },
 
 
-        {
+        {"id": "398",
+        
 
         "prov": "Açores",
 
@@ -7917,7 +8547,8 @@
 },
 
 
-        {
+        {"id": "399",
+        
 
         "prov": "Açores",
 
@@ -7933,7 +8564,8 @@
 },
 
 
-        {
+        {"id": "400",
+        
 
         "prov": "Açores",
 
@@ -7949,7 +8581,8 @@
 },
 
 
-        {
+        {"id": "401",
+        
 
         "prov": "Açores",
 
@@ -7965,7 +8598,8 @@
 },
 
 
-        {
+        {"id": "402",
+        
 
         "prov": "Açores",
 
@@ -7981,7 +8615,8 @@
 },
 
 
-        {
+        {"id": "403",
+        
 
         "prov": "Açores",
 
@@ -7997,7 +8632,8 @@
 },
 
 
-        {
+        {"id": "404",
+        
 
         "prov": "Açores",
 
@@ -8013,7 +8649,8 @@
 },
 
 
-        {
+        {"id": "405",
+        
 
         "prov": "Açores",
 
@@ -8029,7 +8666,8 @@
 },
 
 
-        {
+        {"id": "406",
+        
 
         "prov": "Açores",
 
@@ -8045,7 +8683,8 @@
 },
 
 
-        {
+        {"id": "407",
+        
 
         "prov": "Açores",
 
@@ -8061,7 +8700,8 @@
 },
 
 
-        {
+        {"id": "408",
+        
 
         "prov": "Açores",
 
@@ -8077,7 +8717,8 @@
 },
 
 
-        {
+        {"id": "409",
+        
 
         "prov": "Açores",
 
@@ -8093,7 +8734,8 @@
 },
 
 
-        {
+        {"id": "410",
+        
 
         "prov": "Açores",
 
@@ -8109,7 +8751,8 @@
 },
 
 
-        {
+        {"id": "411",
+        
 
         "prov": "Açores",
 
@@ -8125,7 +8768,8 @@
 },
 
 
-        {
+        {"id": "412",
+        
 
         "prov": "Açores",
 
@@ -8141,7 +8785,8 @@
 },
 
 
-        {
+        {"id": "413",
+        
 
         "prov": "Açores",
 
@@ -8161,7 +8806,8 @@
 },
 
 
-        {
+        {"id": "414",
+        
 
         "prov": "Açores",
 
@@ -8181,7 +8827,8 @@
 },
 
 
-        {
+        {"id": "415",
+        
 
         "prov": "Açores",
 
@@ -8201,7 +8848,8 @@
 },
 
 
-        {
+        {"id": "416",
+        
 
         "prov": "Açores",
 
@@ -8221,7 +8869,8 @@
 },
 
 
-        {
+        {"id": "417",
+        
 
         "prov": "Açores",
 
@@ -8241,7 +8890,8 @@
 },
 
 
-        {
+        {"id": "418",
+        
 
         "prov": "Açores",
 
@@ -8261,7 +8911,8 @@
 },
 
 
-        {
+        {"id": "419",
+        
 
         "prov": "Açores",
 
@@ -8281,7 +8932,8 @@
 },
 
 
-        {
+        {"id": "420",
+        
 
         "prov": "Açores",
 
@@ -8301,7 +8953,8 @@
 },
 
 
-        {
+        {"id": "421",
+        
 
         "prov": "Açores",
 
@@ -8315,7 +8968,8 @@
 },
 
 
-        {
+        {"id": "422",
+        
 
         "prov": "Açores",
 
@@ -8335,7 +8989,8 @@
 },
 
 
-        {
+        {"id": "423",
+        
 
         "prov": "Açores",
 
@@ -8347,7 +9002,8 @@
 },
 
 
-        {
+        {"id": "424",
+        
 
         "prov": "Açores",
 
@@ -8359,7 +9015,8 @@
 },
 
 
-        {
+        {"id": "425",
+        
 
         "prov": "Açores",
 
@@ -8371,7 +9028,8 @@
 },
 
 
-        {
+        {"id": "426",
+        
 
         "prov": "Açores",
 
@@ -8383,7 +9041,8 @@
 },
 
 
-        {
+        {"id": "427",
+        
 
         "prov": "Açores",
 
@@ -8395,7 +9054,8 @@
 },
 
 
-        {
+        {"id": "428",
+        
 
         "prov": "Açores",
 
@@ -8407,7 +9067,8 @@
 },
 
 
-        {
+        {"id": "429",
+        
 
         "prov": "Madeira",
 
@@ -8421,7 +9082,8 @@
 },
 
 
-        {
+        {"id": "430",
+        
 
         "prov": "Madeira",
 
@@ -8435,7 +9097,8 @@
 },
 
 
-        {
+        {"id": "431",
+        
 
         "prov": "Madeira",
 
@@ -8449,7 +9112,8 @@
 },
 
 
-        {
+        {"id": "432",
+        
 
         "prov": "Madeira",
 
@@ -8463,7 +9127,8 @@
 },
 
 
-        {
+        {"id": "433",
+        
 
         "prov": "Madeira",
 
@@ -8477,7 +9142,8 @@
 },
 
 
-        {
+        {"id": "434",
+        
 
         "prov": "Madeira",
 
@@ -8491,7 +9157,8 @@
 },
 
 
-        {
+        {"id": "435",
+        
 
         "prov": "Madeira",
 
@@ -8505,7 +9172,8 @@
 },
 
 
-        {
+        {"id": "436",
+        
 
         "prov": "Madeira",
 
@@ -8521,7 +9189,8 @@
 },
 
 
-        {
+        {"id": "437",
+        
 
         "prov": "Madeira",
 
@@ -8537,7 +9206,8 @@
 },
 
 
-        {
+        {"id": "438",
+        
 
         "prov": "Madeira",
 
@@ -8553,7 +9223,8 @@
 },
 
 
-        {
+        {"id": "439",
+        
 
         "prov": "Madeira",
 
@@ -8569,7 +9240,8 @@
 },
 
 
-        {
+        {"id": "440",
+        
 
         "prov": "Madeira",
 
@@ -8585,7 +9257,8 @@
 },
 
 
-        {
+        {"id": "441",
+        
 
         "prov": "Madeira",
 
@@ -8601,7 +9274,8 @@
 },
 
 
-        {
+        {"id": "442",
+        
 
         "prov": "Madeira",
 
@@ -8611,11 +9285,14 @@
 
         "inst": "rajão; viola; rabeca",
 
-        "obs": {
+        "obs": [
+        {
         "text":[
         
             "Análise dos instrumentos"
-        ]},
+        ]
+        }],
+    
 
         "file": "d2/evo441.mp3",
 
@@ -8623,7 +9300,8 @@
 },
 
 
-        {
+        {"id": "443",
+        
 
         "prov": "Madeira",
 
@@ -8639,7 +9317,8 @@
 },
 
 
-        {
+        {"id": "444",
+        
 
         "prov": "Madeira",
 
@@ -8655,7 +9334,8 @@
 },
 
 
-        {
+        {"id": "445",
+        
 
         "prov": "Madeira",
 
@@ -8671,7 +9351,8 @@
 },
 
 
-        {
+        {"id": "446",
+        
 
         "prov": "Madeira",
 
@@ -8687,7 +9368,8 @@
 },
 
 
-        {
+        {"id": "447",
+        
 
         "prov": "Madeira",
 

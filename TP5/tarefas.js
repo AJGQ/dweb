@@ -63,7 +63,6 @@ var my_server = http.createServer((req,res) => {
                     }
                 });
             } else {
-                res.redirect('/');
                 error_page_style(res, "Erro a página deve estar na /")
             }
             break;

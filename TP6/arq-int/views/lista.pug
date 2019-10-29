@@ -1,0 +1,41 @@
+extends layout
+
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Novo Doc
+                .w3-container
+                    form.w3-container(action='/lista' method='POST')
+                        label
+                            b Província
+                        input.w3-input.w3-border(type='text' name='prov')
+                        label
+                            b Título
+                        input.w3-input.w3-border(type='text' name='tit')
+                        label
+                            b Ficheiro
+                        input.w3-input.w3-border(type='text' name='file')
+                        label
+                            b Duração
+                        input.w3-input.w3-border(type='text' name='duracao')
+                        input.w3-btn.w3-blue-grey(type='submit' value='Enviar')
+    hr
+    .w3-container
+        header.w3-container.w3-teal
+            h3 Lista de Docs
+            table
+                tr
+                    th Título
+                    th Operações
+                each doc in arq
+                    tr
+                        th
+                            a(href="/ve?doc="+doc.id)= doc.tit 
+                        th
+                            button.w3-button.w3-circle.w3-blue-grey(onclick="apaga('" + doc.id + "')") Apagar
+                            a.w3-button.w3-circle.w3-blue-grey(href="/muda?doc="+doc.id) Mudar 
+
+
+            footer.w3-container.w3-teal
+                address Gerado por arq interacionista

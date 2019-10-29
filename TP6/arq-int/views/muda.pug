@@ -1,0 +1,35 @@
+extends layout
+
+block content
+    .w3-container
+        header.w3-container.w3-teal
+            h1= doc.tit
+            form.w3-container(action='/muda' method='POST')
+                label
+                    b Id
+                input.w3-input.w3-border(type='text' name='id' value=doc.id)
+                label
+                    b Província
+                input.w3-input.w3-border(type='text' name='prov' value=doc.prov)
+                label
+                    b Local
+                input.w3-input.w3-border(type='text' name='local' value=doc.local)
+                label
+                    b Titulo
+                input.w3-input.w3-border(type='text' name='tit' value=doc.tit)
+                label
+                    b Músico
+                input.w3-input.w3-border(type='text' name='musico')
+                label
+                    b Instituição
+                input.w3-input.w3-border(type='text' name='inst' value=doc.inst)
+                label
+                    b Observações
+                input.w3-input.w3-border(type='text' name='obs')
+                label
+                    b Ficheiro
+                input.w3-input.w3-border(type='text' name='file' value=doc.file)
+                label
+                    b Duração
+                input.w3-input.w3-border(type='text' name='duracao' value=doc.duracao)
+                input.w3-btn.w3-blue-grey(type='submit' value='Mudar')

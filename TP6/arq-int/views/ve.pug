@@ -1,0 +1,52 @@
+extends layout
+
+block content
+    .w3-container
+        header.w3-container.w3-teal
+            h1= doc.tit
+            dl
+                    dt Província
+                    dd= doc.prov
+
+                    dt Local
+                    dd= doc.local
+
+                    dt Titulo
+                    dd= doc.tit
+
+                    dt Músico
+                    dd
+                        if typeof(doc.musico) != 'undefined'
+                            p
+                                - var ks = Object.keys(doc.musico);
+                                each ind in [...Array(doc.musico.text.length).keys()]
+                                    | #{doc.musico.text[ind]}
+                                    | #{doc.musico[ks[ind+1]]}
+                            
+
+                    dt Instituição
+                    dd= doc.inst
+
+                    dt Observações
+                    dd
+                        ul
+                            if typeof(doc.obs) != 'undefined'
+                                each obs in doc.obs
+                                    - var ks = Object.keys(obs);
+                                    li
+                                        p
+                                            if ks.length == obs.text.length
+                                                | #{obs.text[0]} 
+                                            each ind in [...Array(obs.text.length).keys()]
+                                                if ks[ind+1] == "file"
+                                                    a(href=obs[ks[ind+1]])= obs[ks[ind+1]]
+                                                else
+                                                    b= obs[ks[ind+1]]
+                                                |  #{obs.text[ind+1]} 
+                                            
+                    dt Ficheiro
+                    dd
+                        a(href=doc.file)= doc.file
+
+                    dt Duração
+                    dd= doc.duracao

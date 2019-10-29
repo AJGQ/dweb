@@ -5,7 +5,7 @@
             TPC_6
         </keyname>
         <title>
-            ...
+            Arq Interacionista
         </title>
         <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
             José Carlos Ramalho
@@ -47,6 +47,21 @@
         </deliverable>
         <deliverable path="pr.xsl">
             stylesheet para visualizar em html
+        </deliverable>
+        <deliverable path="pr.html">
+            o resultado do pr.xml com o stylesheet pr.xsl 
+        </deliverable>
+        <deliverable path="arq-int/">
+            diretoria onde está o projeto para mexer no arq-son em express
+        </deliverable>
+        <deliverable path="arq-son-EVO.json">
+            o resultado do arq-son-EVO.xml com o stylesheet arq-son-EVO.xsl 
+        </deliverable>
+        <deliverable path="arq-son-EVO.xml">
+            o documento do professor
+        </deliverable>
+        <deliverable path="arq-son-EVO.xsl">
+            o stylesheet para transformar o .xml do professor para .json
         </deliverable>
     </deliverables>
 </pr>
