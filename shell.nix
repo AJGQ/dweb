@@ -11,8 +11,11 @@ stdenv.mkDerivation {
     #libxslt
     saxonb_9_1
 
-    # node
+    #mongo
     mongodb
+    mongodb-tools
+
+    # node
     nodejs-10_x
     nodePackages_10_x.npm
   ];

@@ -1,0 +1,7 @@
+db.filmes.aggregate([{$unwind: "$cast"}])
+db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}}}])
+db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}}}, {$sort: {numFilmes: -1}}])
+db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}}}, {$sort: {numFilmes: -1}}, {$match: {numFilmes: {$gt: 100}}}])
+db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}}}, {$sort: {numFilmes: -1}}, {$match: {numFilmes: {$gt: 100}}}, {$count: "coisas"}])
+db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", filmes: {$push: "$title"}}}])
+db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", filmes: {$push: "$title"}, length: {$sum: 1}}}, {$sort: {length:-1}}])
