@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h3 Cria um filme
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-teal
+        form.w3-container(action='/filmes' method='POST')
+          label
+            b Título
+          input.w3-input.w3-border(type='text' name='title')
+          label
+            b Ano
+          input.w3-input.w3-border(type='text' name='year')
+          label
+            b Actores (para diferentes actores, separar com ',')
+          input.w3-input.w3-border(type='text' name='cast')
+          label
+            b Géneros (para diferentes géneros, separar com ',')
+          input.w3-input.w3-border(type='text' name='genres')
+          input.w3-btn.w3-blue-grey(type='submit' value='Enviar')
+      
+    a(href="/") Back
+    
+  h3 Lista de filmes
+  ul
+    each filme in filmes
+      li 
+        a(href="/filmes/"+filme._id)= filme.title

@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .w3-container
+    header.w3-container.w3-teal
+      h1= filme.title
+      dl
+        dt Título
+        dd= filme.title
+
+        dt Ano
+        dd= filme.year
+
+        dt Actores
+        dd  
+          ul
+            each actor in filme.cast
+                li= actor
+
+        dt Generos
+        dd 
+          ul
+            each genero in filme.genres
+              li= genero
+
+
