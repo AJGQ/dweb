@@ -1,8 +1,0 @@
-Listar os generos de filmes e indicar quantos há de cada um
->db.filmes.aggregate([{$unwind: "$genres"}, {$group: {_id: "$genres"}}])
-
-Quais os titulos dos filmes do genero "Drama"
->db.filmes.find({genres: {$all: [/Drama/]}}, {_id: 0, title: 1})
-
-Que actores participaram em filmes do genero "Comedy"
->db.filmes.aggregate([{$match: {genres: {$all: [/Comedy/]}}}, {$unwind: "$cast"}, {$group: {_id: "$cast"}}])

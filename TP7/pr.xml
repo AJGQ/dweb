@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TPC_7
+        </keyname>
+        <title>
+            Interacionista de filmes
+        </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            29-10-2019
+        </bdate>
+        <edate>
+            5-11-2019
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho é parecido com o anterior, menos na parte de usarmos uma base de dados como mongo, para guardar as informações importantes para a aplicação, e também na parte de dar a possibilidade de fazer queries simples.
+        </p>
+        <p>
+            Neste trabalho usei um POST como um PUT, porque não sei como buscar os valores de uma form no client side com o axios.
+        </p>
+        <p>
+            As queries que tivemos de fazer, foram feitas com sucesso, apesar de que a primeira pareceu ter uma solução mais simples que aquela que apresentei.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.dtd">
+            descreve o pr
+        </deliverable>
+        <deliverable path="pr.xsl">
+            stylesheet para visualizar em html
+        </deliverable>
+        <deliverable path="pr.html">
+            o resultado do pr.xml com o stylesheet pr.xsl 
+        </deliverable>
+        <deliverable path="movies.json">
+            o dataset do professor para filmes
+        </deliverable>
+        <deliverable path="queries.txt">
+            as queries que o professor no início da aula pediu como tpc
+        </deliverable>
+        <deliverable path="filmes-int/">
+            o projeto 'Interacionista de filmes' feito em express.js
+        </deliverable>
+    </deliverables>
+</pr>

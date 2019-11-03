@@ -22,5 +22,8 @@ block content
           ul
             each genero in filme.genres
               li= genero
-
-
+    
+    button.w3-button.w3-circle.w3-blue-grey(onclick="apaga('" + filme._id + "')") Apagar
+    a.w3-button.w3-circle.w3-blue-grey(href="/muda/"+filme._id) Mudar 
+    br
+    a(href='/') Voltar

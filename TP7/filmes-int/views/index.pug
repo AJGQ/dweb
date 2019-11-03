@@ -3,10 +3,21 @@ extends layout
 block content
   h1 Interacionista de filmes
   p Nesta app pode-se listar todos os filmes, criar novos filmes, eliminar, consultar e alterar.
-  p Pode-se ver um filme em específico concatenando no url 
-    i /filmes/idFilme
-    |  em que o 
-    i idFilme
-    |  é o identificador do filme.
-    
-  a(href="/filmes") Listar filmes 
+  form.w3-container(action='/' method='POST')
+    label 
+      b Se quiser um padrão no titulo, coloque aqui:
+    input.w3-input.w3-border(type='text' name='title')
+    label 
+      b Se quiser um intervalo de anos, coloque aqui:
+    br
+    label ano mais antigo (inclusive)
+    input.w3-input.w3-border(type='text' name='year_low')
+    label ano mais recente (inclusive)
+    input.w3-input.w3-border(type='text' name='year_high')
+    label
+      b Se quiser uns actores específicos (separados com ','), coloque aqui:
+    input.w3-input.w3-border(type='text' name='cast')
+    label
+      b Se quiser uns géneros específicos (separados com ','), coloque aqui:
+    input.w3-input.w3-border(type='text' name='genres')
+    input.w3-btn.w3-blue-grey(type='submit' value='Listar filmes')

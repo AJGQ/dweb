@@ -8,6 +8,7 @@ mongoose.connect('mongodb://localhost/filmes', {useNewUrlParser: true, useUnifie
 
 var indexRouter = require('./routes/index');
 var filmesRouter = require('./routes/filmes');
+var mudaRouter = require('./routes/muda');
 
 var app = express();
 
@@ -22,6 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/filmes', filmesRouter);
+app.use('/muda', mudaRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

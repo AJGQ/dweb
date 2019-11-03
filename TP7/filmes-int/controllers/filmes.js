@@ -3,7 +3,24 @@ var mongoose = require('mongoose');
 
 const Filmes = module.exports;
 
-//Devolve a lista
+Filmes.filtrar = filtros => {
+    var filtro = {
+            title:  {$regex : ".*"+filtros.title+".*"},
+            year:   {$gte: filtros.year_low, $lte: filtros.year_high},
+        };
+    if(filtros.cast.length != 0){
+        filtro.cast = {$all: filtros.cast}
+    }
+    if(filtros.genres.length != 0){
+        filtro.genres = {$all: filtros.genres}
+    }
+
+    return Filme
+        .find(filtro)
+        .sort({title: 1})
+        .exec()
+}
+
 Filmes.listar = () => {
     return Filme
         .find()
@@ -11,7 +28,7 @@ Filmes.listar = () => {
         .exec()
 }
 
-Filmes.insere = filme => {
+Filmes.inserir = filme => {
     mongoose.connect('mongodb://localhost/filmes', {useNewUrlParser: true, useUnifiedTopology: true });
     var db = mongoose.connection;
     db.on('error', console.error.bind(console, 'connection error:'));
@@ -31,7 +48,20 @@ Filmes.insere = filme => {
     });
 }
 
+Filmes.apagar = idFilme => {
+    return Filme
+        .deleteOne({_id: idFilme})
+        .exec()
+}
+
+Filmes.mudar = (idFilme, filme) => {
+    return Filme
+        .updateOne({_id: idFilme}, filme)
+        .exec()
+}
+
 Filmes.consultar = fid => {
+    console.log(fid);
     return Filme
         .findOne({_id: fid})
         .exec()

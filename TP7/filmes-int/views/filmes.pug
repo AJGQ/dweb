@@ -13,17 +13,24 @@ block content
             b Ano
           input.w3-input.w3-border(type='text' name='year')
           label
-            b Actores (para diferentes actores, separar com ',')
+            b Actores (para vários actores, separar com ',')
           input.w3-input.w3-border(type='text' name='cast')
           label
-            b Géneros (para diferentes géneros, separar com ',')
+            b Géneros (para vários géneros, separar com ',')
           input.w3-input.w3-border(type='text' name='genres')
           input.w3-btn.w3-blue-grey(type='submit' value='Enviar')
       
-    a(href="/") Back
+    a(href="/") Voltar
     
   h3 Lista de filmes
-  ul
+  table
+    tr
+      th Filmes
+      th Operações
     each filme in filmes
-      li 
-        a(href="/filmes/"+filme._id)= filme.title
+      tr
+        th 
+          a(href="/filmes/"+filme._id)= filme.title
+        th 
+          button.w3-button.w3-circle.w3-blue-grey(onclick="apaga('" + filme._id + "')") Apagar
+          a.w3-button.w3-circle.w3-blue-grey(href="/muda/"+filme._id) Mudar 

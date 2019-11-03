@@ -2,16 +2,14 @@ var express = require('express');
 var router = express.Router();
 var Filmes = require('../controllers/filmes')
 
-router.get('/', function(req, res, next) {
-    res.render('index');
+router.get('/:idFilme', (req, res) => {
+    Filmes.consultar(req.params.idFilme)
+        .then(dados => res.render('muda', {filme: dados}))
+        .catch(erro => res.status(500).jsonp(erro))
 });
 
-router.post('/', (req,res) => {
+router.post('/:idFilme', (req, res) => {
     var body = req.body;
-    if(body.year_low == '')
-        body.year_low = 0;
-    if(body.year_high == '')
-        body.year_high = 9999;
     if(body.cast == '')
         body.cast = [];
     else
@@ -21,9 +19,8 @@ router.post('/', (req,res) => {
     else
         body.genres = body.genres.split(',');
 
-    Filmes.filtrar(body)
-        .then(dados => res.render('filmes', {filmes: dados}))
-        .catch(erro => res.status(500).jsonp(erro))
+    Filmes.mudar(req.params.idFilme, body);
+    res.redirect(303, '/filmes/'+req.params.idFilme);
 });
 
 module.exports = router;

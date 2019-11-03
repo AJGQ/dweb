@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .w3-container
+    header.w3-container.w3-teal
+      h1= filme.title
+      form.w3-container(action='/muda/'+filme._id method='POST')
+        label
+          b Titulo
+        input.w3-input.w3-border(type='text' name='title' value=filme.title)
+        label
+          b Ano
+        input.w3-input.w3-border(type='text' name='year' value=filme.year)
+        label
+          b Actores (para vários actores, separar com ',')
+        input.w3-input.w3-border(type='text' name='cast' value=filme.cast.toString())
+        label
+          b Géneros (para vários géneros, separar com ',')
+        input.w3-input.w3-border(type='text' name='genres' value=filme.genres.toString())
+        input.w3-btn.w3-blue-grey(type='submit' value='Mudar')
+    a(href="/") Voltar
