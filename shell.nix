@@ -18,5 +18,6 @@ stdenv.mkDerivation {
     # node
     nodejs-10_x
     nodePackages_10_x.npm
+    #postman
   ];
 }

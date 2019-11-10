@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TPC_8
+        </keyname>
+        <title>
+            Prémios Nobel
+        </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            5-11-2019
+        </bdate>
+        <edate>
+            12-11-2019
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este exercício foi fácil relativamente aos anteriores, porque foi só preciso o método GET.
+        </p>
+        <p>
+            A parte que poderia ser considerada mais complicada são as queries associadas a cada pedido. Mas todas elas foram diretas sem contar com a última, pois foi preciso ter em consideração que poderia haver mais do que um Prémio Nobel associado a uma pessoa.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.dtd">
+            descreve o pr
+        </deliverable>
+        <deliverable path="pr.xsl">
+            stylesheet para visualizar em html
+        </deliverable>
+        <deliverable path="pr.html">
+            o resultado do pr.xml com o stylesheet pr.xsl 
+        </deliverable>
+        <deliverable path="premios-nobel/">
+            diretoria onde contem a aplicação especificada pelo exercícios número 1
+        </deliverable>
+        <deliverable path="premios-nobel/prize.json">
+            o ficheiro com a base de dados em json
+        </deliverable>
+    </deliverables>
+</pr>

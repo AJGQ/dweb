@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Premios Nobel
+  p Esta aplicação não tem interface, por isso funciona da maneira seguinte:
+  ul
+      li /api/premios - Devolve a lista de prémios apenas com os campos "year" e "category";
+      li /api/premios/:id - Devolve a informação completa de um prémio;
+      li /api/categorias - Devolve a lista de categorias, sem repetições;
+      li /api/premios?categoria=YYY - Devolve a lista de prémios que tenham o campo "category" com o valor "YYY";
+      li /api/premios?categoria=YYY&data=AAAA - Devolve a lista de prémios que tenham o campo "category" com o valor "YYY" e o campo "year" com um valor superior a "AAAA";
+      li /api/laureados - Devolve uma lista ordenada alfabeticamente por nome dos laureados com os campos correspondentes ao nome, ano do prémio e categoria.
+
