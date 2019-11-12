@@ -6,7 +6,6 @@ var logger = require('morgan');
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/obras', {useNewUrlParser: true, useUnifiedTopology: true });
 
-var indexRouter = require('./routes/index');
 var apiRouter = require('./routes/api');
 
 var app = express();
@@ -20,8 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/obras', apiRouter);
+app.use('/', apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

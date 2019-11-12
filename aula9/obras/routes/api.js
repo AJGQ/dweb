@@ -3,7 +3,7 @@ var router = express.Router();
 
 var Obras = require('../controllers/obras');
 
-router.get('/', function(req, res, next) {
+router.get('/obras', function(req, res, next) {
     var query = req.query;
     if(query.hasOwnProperty('compositor') && query.hasOwnProperty('duracao')){
         var filtro = {
@@ -35,9 +35,20 @@ router.get('/', function(req, res, next) {
     }
 });
 
-router.get('/:id', function(req, res, next) {
-
+router.get('/obras/:id', function(req, res, next) {
     Obras.filtra({_id: req.params.id})
+        .then(dados => res.jsonp(dados))
+        .catch(erro => res.status(500).jsonp(erro))
+});
+
+router.get('/compositores', function(req, res, next) {
+    Obras.compositores()
+        .then(dados => res.jsonp(dados))
+        .catch(erro => res.status(500).jsonp(erro))
+});
+
+router.get('/periodos', function(req, res, next) {
+    Obras.periodos()
         .then(dados => res.jsonp(dados))
         .catch(erro => res.status(500).jsonp(erro))
 });

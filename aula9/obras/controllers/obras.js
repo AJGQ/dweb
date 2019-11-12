@@ -8,3 +8,15 @@ Obras.filtra = filtro => {
         .exec();
 }
 
+Obras.compositores = () => {
+    return Obra
+        .aggregate([{$group: {_id:"$compositor"}}])
+        .exec();
+}
+
+Obras.periodos = () => {
+    return Obra
+        .aggregate([{$group: {_id:"$periodo"}}])
+        .exec();
+}
+
