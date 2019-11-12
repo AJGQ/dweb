@@ -1,0 +1,3 @@
+obras.find({anoCriacao: "1673"})
+db.obras.find({compositor: "Emanuele d'Astorga", duracao: "01:19:00"})
+
