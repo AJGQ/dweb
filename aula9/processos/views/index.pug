@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1 Lista de entidades
+    ul
+        each ent in entidades
+            li
+                a(href="/"+ent.id)= ent.designacao

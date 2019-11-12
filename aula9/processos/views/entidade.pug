@@ -1,0 +1,63 @@
+extends layout
+
+block content
+    h1= info.ent.designacao
+    dl
+        
+        dt 
+            b Estado
+        dd= info.ent.estado
+        
+        dt 
+            b Sigla
+        dd= info.ent.sigla
+        
+        dt 
+            b Designação
+        dd= info.ent.designacao
+        
+        dt 
+            b internacional
+        dd= info.ent.internacional
+
+    h3 Tipologias
+    ul
+        each tipo in info.tipologias
+            li
+                dl
+                    dt
+                        b Sigla
+                    dd= tipo.sigla
+                    dt
+                        b designacao
+                    dd= tipo.designacao
+                    dt
+                        b Id
+                    dd= tipo.id
+
+    h3 Processos que é dono
+    ul
+        each dono in info.dono
+            li
+                dl
+                    dt
+                        b Código
+                    dd= dono.codigo
+                    dt
+                        b Título
+                    dd= dono.titulo
+
+    h3 Processos que é participante
+    ul
+        each participante in info.participante
+            li
+                dl
+                    dt
+                        b Tipo de participante
+                    dd= participante.tipoPar
+                    dt
+                        b Código
+                    dd= participante.codigo
+                    dt
+                        b Título
+                    dd= participante.titulo
