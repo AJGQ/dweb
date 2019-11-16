@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TPC_9
+        </keyname>
+        <title>
+            mongoimport 
+        </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            12-11-2019
+        </bdate>
+        <edate>
+            19-11-2019
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Trabalho fácil, mas tive que pesquisar como aceder a argumentos do comando.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.dtd">
+            descreve o pr
+        </deliverable>
+        <deliverable path="pr.xsl">
+            stylesheet para visualizar em html
+        </deliverable>
+        <deliverable path="pr.html">
+            o resultado do pr.xml com o stylesheet pr.xsl 
+        </deliverable>
+        <deliverable path="mongoimport.js">
+            projecto que faz import de um json para uma base de dados em mongo
+        </deliverable>
+    </deliverables>
+</pr>
