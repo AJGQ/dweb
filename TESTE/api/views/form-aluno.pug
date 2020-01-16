@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Gestao de Alunos DAW2019
+        form.w3-container(action="/alunos" method="POST")
+            label
+                b Identificador
+            input.w3-input(type='text' name='_id')
+            label
+                b Nome
+            input.w3-input(type='text' name='nome')
+            label
+                b Curso
+            input.w3-input(type='text' name='curso')
+            input.w3-input(type='submit' value='Enviar')
+        address
+            a(href="http://localhost:3000/") Pagina inicial

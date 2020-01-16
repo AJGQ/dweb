@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <metadata>
+        <keyname>
+            TESTE
+        </keyname>
+        <title>
+            teste
+        </title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>
+            16-1-2020
+        </bdate>
+        <edate>
+            16-1-2020
+        </edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>
+                PG38014
+            </identifier>
+            <name>
+                Artur Queiroz
+            </name>
+            <email>
+                artur11jorge@gmail.com
+            </email>
+            <git>
+                https://github.com/AJGQ
+            </git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Para o primeiro exercício é necessário um servidor mongo, para inicializar com os dados necessários tem que se usar o seguinte:
+        </p>
+        <p>
+            > mongoimport --collection=arquivos --db=musicas --file='arquivo-musica-digital.json' --jsonArray
+        </p>
+        <p>
+            Para as perguntas do segundo exercicio:
+        </p>
+        <p>
+            Quantas Entidades estão catalogadas?
+        </p>
+        <p>
+            546
+        </p>
+        <p>
+            A que Tipologias pertence a Entidade "Autoridade para as Condições de Trabalho" (ent_ACT)?
+        </p>
+        <p>
+            Administração Pública
+        </p>
+        <p>
+            Autoridades de supervisão e fiscalização
+        </p>
+        <p>
+            Em que processos a entidade "Autoridade Nacional de Segurança Rodoviária" (ent_ANSR) participa como Iniciador?
+        </p>
+        <p>
+            0
+        </p>
+        <p>
+            De que processos é dona a entidade "Colégio Militar" (ent_CMil)?
+        </p>
+        <p>
+            Realização de atividades de formação e treino animal
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.dtd">
+            descreve o pr
+        </deliverable>
+        <deliverable path="pr.xsl">
+            stylesheet para visualizar em html
+        </deliverable>
+        <deliverable path="pr.html">
+            o resultado do pr.xml com o stylesheet pr.xsl 
+        </deliverable>
+    </deliverables>
+</pr>

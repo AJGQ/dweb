@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Lista de entidades
+        ul.w3-ul
+            each ent in entidades
+                li
+                    p= ent.designacao
+                    a(href="http://localhost:5000/entidade/" + ent.id)= ent.sigla

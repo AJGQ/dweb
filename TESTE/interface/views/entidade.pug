@@ -1,0 +1,35 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Lista de entidades
+        table
+            tr
+                th Estado
+                th Sigla
+                th SIOE
+                th Designação
+                th Internacional
+                th Tipologias
+                th Dono
+                th Participante
+            tr
+                td= entidade.estado
+                td= entidade.sigla
+                td= entidade.sioe
+                td= entidade.designacao
+                td= entidade.internacional
+                td
+                    ul
+                        each tip in tipologias
+                            li= tip.designacao
+                td
+                    ul
+                        each don in dono
+                            li= don.titulo
+                td
+                    ul
+                        each part in participante
+                            li= part.titulo
+        hr
+        a(href='/') Voltar

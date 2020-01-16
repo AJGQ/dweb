@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Edição de Alunos DAW2019
+        form.w3-container(action="/alunos/editar" method="POST")
+            label
+                b Identificador
+            input.w3-input(type='text' name='_id' value=aluno._id)
+            label
+                b Nome
+            input.w3-input(type='text' name='nome' value=aluno.nome)
+            label
+                b Curso
+            input.w3-input(type='text' name='curso' value=aluno.curso)
+            input.w3-input(type='submit' value='Enviar')
+        address
+            a(href="http://localhost:3000/") Pagina inicial
